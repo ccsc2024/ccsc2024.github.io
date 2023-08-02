@@ -22,19 +22,7 @@
             <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              
-              {% if post.position %}
-              <li>Position:
-                <strong>{{ post.position }}</strong>
-              </li>
-              {% endif %}
-
-              {% if post.location %}
-              <li>Location:
-                <strong>{{ post.location }}</strong>
-              </li>
-              {% endif %}
-              
+                           
               {% if post.linkedin %}
               <li><a href="{{ post.linkedin }}"><i class="fa-brands fa-linkedin" style="font-size:48px;color:#204A87;"></i></a></li>
               {% endif %}
