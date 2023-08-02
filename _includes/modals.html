@@ -23,22 +23,28 @@
             {% endif %}
             <ul class="list-inline item-details">
               
-              {% if post.team %}
-              <li>Team:
-                <strong>{{ post.team }}</strong>
+              {% if post.position %}
+              <li>Position:
+                <strong>{{ post.position }}</strong>
               </li>
               {% endif %}
 
-              {% if post.category %}
-              <li>Research Field:
-                <strong>{{ post.category }}</strong>
+              {% if post.location %}
+              <li>Location:
+                <strong>{{ post.location }}</strong>
               </li>
               {% endif %}
               
-              {% if post.project %}
-              <li>Projects:
-                <strong>{{ post.project }}</strong>
-              </li>
+              {% if post.linkedin %}
+              <li><a href="{{ post.linkedin }}"><i class="fa-brands fa-linkedin" style="font-size:48px;color:#204A87;"></i></a></li>
+              {% endif %}
+
+              {% if post.twitter %}
+              <li><a href="{{ post.twitter }}"><i class="fa-brands fa-twitter" style="font-size:48px;color:#204A87;"></i></a></li>
+              {% endif %}
+
+              {% if post.web %}
+              <li><a href="{{ post.web }}"><i class="fa-brands fa-globe" style="font-size:48px;color:#204A87;"></i></a></li>
               {% endif %}
               
             </ul>
