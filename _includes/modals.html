@@ -16,7 +16,7 @@
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
             {% if site.categories.example %}
-              <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" width="200">
+              <img src="img/speaker/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" width="200">
             {% endif %}
             {% if post.description %}
             <p>{{ post.description }}</p>
@@ -24,19 +24,19 @@
             <ul class="list-inline item-details">
                            
               {% if post.linkedin %}
-              <li><a href="{{ post.linkedin }}"><i class="fa-brands fa-linkedin" style="font-size:48px;color:#204A87;"></i></a></li>
+              <li><a href="{{ post.linkedin }}"><i class="fa-brands fa-linkedin" style="font-size:48px;color:#A4004F;"></i></a></li>
               {% endif %}
 
               {% if post.researchgate %}
-              <li><a href="{{ post.researchgate }}"><i class="fa-brands fa-researchgate" style="font-size:48px;color:#204A87;"></i></a></li>
+              <li><a href="{{ post.researchgate }}"><i class="fa-brands fa-researchgate" style="font-size:48px;color:#A4004F;"></i></a></li>
               {% endif %}
 
               {% if post.twitter %}
-              <li><a href="{{ post.twitter }}"><i class="fa-brands fa-twitter" style="font-size:48px;color:#204A87;"></i></a></li>
+              <li><a href="{{ post.twitter }}"><i class="fa-brands fa-twitter" style="font-size:48px;color:#A4004F;"></i></a></li>
               {% endif %}
 
               {% if post.web %}
-              <li><a href="{{ post.web }}"><i class="fa-solid fa-globe" style="font-size:48px;color:#204A87;"></i></a></li>
+              <li><a href="{{ post.web }}"><i class="fa-solid fa-globe" style="font-size:48px;color:#A4004F;"></i></a></li>
               {% endif %}
               
             </ul>
