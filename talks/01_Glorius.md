@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: talkpage
 speaker: Prof. Frank Glorius
 img: glorius.png
 location: Universität Münster (DE)
