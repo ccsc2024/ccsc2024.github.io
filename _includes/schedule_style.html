@@ -35,6 +35,12 @@
           </p>
         </div>
         <div class="col-lg-1">
+          {% if event.registration %}
+            <i class="fa-solid fa-id-badge" style="font-size:24px;color:#ffffff;"></i>
+          {% endif %}
+          {% if event.poster %}
+            <i class="fa-solid fa-palette" style="font-size:24px;color:#ffffff;"></i>
+          {% endif %}
           {% if event.coffee-break %}
             <i class="fa-solid fa-mug-hot" style="font-size:24px;color:#ffffff;"></i>
           {% endif %}
@@ -83,6 +89,12 @@
           </p>
         </div>
         <div class="col-lg-1">
+          {% if event.registration %}
+            <i class="fa-solid fa-id-badge" style="font-size:24px;color:#A4004F;"></i>
+          {% endif %}
+          {% if event.poster %}
+            <i class="fa-solid fa-palette" style="font-size:24px;color:#A4004F;"></i>
+          {% endif %}
           {% if event.coffee-break %}
             <i class="fa-solid fa-mug-hot" style="font-size:24px;color:#A4004F;"></i>
           {% endif %}
