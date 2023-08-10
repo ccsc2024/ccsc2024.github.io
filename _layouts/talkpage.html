@@ -3,8 +3,32 @@
 {% include head.html %}
   
 <body id="page-top" class="index">
+  
   {% include nav.html %} 
-  {% include talk_style.html %}
+  <section id="talk">
+    <div class="container">
+      <!-- abstract -->
+      <div class="row">
+        <div class="col-lg-8">
+          <h3>{{ title }}</h3>
+          <hr class="star-primary">
+          <br><br>
+          <p>{{ abstract }}</p>
+        </div>
+      </div>
+      <!-- now some details about the speaker -->
+      <div class="row">
+      <div class="col-lg-4 col-lg-offset-2">
+        <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/speaker/{{ img }}" class="img-responsive" alt="{{ speaker }}">
+      </div>
+      <div class="col-lg-4">
+        <h4>{{ speaker }}</h4>
+        <br><br>
+        <p><i class="fa-solid fa-location-dot" style="font-size:20px;color:#A4004F;"></i>&nbsp {{ location }}</p>
+      </div>
+      </div>
+    </div>
+  </section>
   
   {% include footer.html %}
   {% include js.html %}
