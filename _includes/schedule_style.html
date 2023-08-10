@@ -1,0 +1,117 @@
+<!-- Header -->
+<section id="schedule"> </section>
+<section id="schedule">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Schedule</h2>
+        <hr class="star-primary">
+        <br><br>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Timetable day-by-day -->
+{% for item in site.categories.schedule %}
+  {% if item.color-bg %}
+  <section class="success" id="schedule-color">
+    <div class="container">
+      <div class="col-lg-12 text-center">
+        <h3>{{ item.header }}</h3>
+        <br><br>
+      </div>
+      {% for event in item.combined %}
+      {% if event.session %}
+        <div class="row">
+          <div class="col-lg-8 text-center">
+            <h4>{{ event.session }}</h4>
+            <br><br>
+          </div>
+        </div>
+      {% endif %}
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <p>
+            {{ event.time }}
+          </p>
+        </div>
+        <div class="col-lg-1">
+          {% if event.coffee-break %}
+            <i class="fa-solid fa-mug-hot" style="font-size:24px;color:#ffffff;"></i>
+          {% endif %}
+          {% if event.lunch-break %}
+            <i class="fa-solid fa-utensils" style="font-size:24px;color:#ffffff;"></i>
+          {% endif %}
+          {% if event.talk %}
+            <i class="fa-solid fa-chalkboard-user" style="font-size:24px;color:#ffffff;"></i>
+          {% endif %}
+          {% if event.tutorial %}
+            <i class="fa-solid fa-hand" style="font-size:24px;color:#ffffff;"></i>
+          {%endif %}
+          {% if event.discussion %}
+            <i class="fa-solid fa-user-group" style="font-size:24px;color:#ffffff;"></i>
+          {%endif %}
+          {% if event.fun %}
+            <i class="fa-solid fa-face-smile" style="font-size:24px;color:#ffffff;"></i>
+          {%endif %}
+        </div>
+        <div class="col-lg-7">
+          <p>{{ event.descr }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% else %}
+  <!-- item with white background -->
+  <section id="schedule">
+    <div class="container">
+      <div class="col-lg-12 text-center">
+        <h3>{{ item.header }}</h3>
+        <br><br>
+      </div>
+      {% for event in item.combined %}
+      {% if event.session %}
+        <div class="row">
+          <div class="col-lg-8 text-center">
+            <h4>{{ event.session }}</h4>
+            <br><br>
+          </div>
+        </div>
+      {% endif %}
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-2">
+          <p>
+            {{ event.time }}
+          </p>
+        </div>
+        <div class="col-lg-1">
+          {% if event.coffee-break %}
+            <i class="fa-solid fa-mug-hot" style="font-size:24px;color:#5B5B5B;"></i>
+          {% endif %}
+          {% if event.lunch-break %}
+            <i class="fa-solid fa-utensils" style="font-size:24px;color:#5B5B5B;"></i>
+          {% endif %}
+          {% if event.talk %}
+            <i class="fa-solid fa-chalkboard-user" style="font-size:24px;color:#5B5B5B;"></i>
+          {% endif %}
+          {% if event.tutorial %}
+            <i class="fa-solid fa-hand" style="font-size:24px;color:#5B5B5B;"></i>
+          {%endif %}
+          {% if event.discussion %}
+            <i class="fa-solid fa-user-group" style="font-size:24px;color:#5B5B5B;"></i>
+          {%endif %}
+          {% if event.fun %}
+            <i class="fa-solid fa-face-smile" style="font-size:24px;color:#5B5B5B;"></i>
+          {%endif %}
+        </div>
+        <div class="col-lg-7">
+          <p>{{ event.descr }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}
