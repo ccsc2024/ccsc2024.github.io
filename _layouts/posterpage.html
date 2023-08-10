@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+  
+<body id="page-top" class="index">
+  
+  {% include nav.html %}
+  <section id="poster">
+    <div class="container">
+      <!-- abstract -->
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h4>{{ posterpage.title }}</h4>
+          <br><br>
+          <ul class="list-inline">
+            <li><i class="fa-solid fa-user" style="font-size:24px;color:#A4004F;"></i><p>&nbsp{{ posterpage.speaker }}</p></li>
+            <li><i class="fa-solid fa-location-dot" style="font-size:24px;color:#A4004F;"></i><p>&nbsp {{ posterpage.location }}</p></li>
+          </ul>
+          <br>
+          <hr class="star-primary">
+          <br><br>
+          <p>{{ posterpage.abstract }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  {% include footer.html %}
+  {% include js.html %}
+</body>
+  
+</html>
