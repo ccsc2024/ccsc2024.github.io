@@ -24,14 +24,14 @@
       {% for event in item.combined %}
       {% if event.session %}
         <div class="row">
-          <div class="col-lg-8 text-center">
+          <div class="col-lg-8 text-center col-lg-offset-2">
             <h4>{{ event.session }}</h4>
             <br><br>
           </div>
         </div>
       {% endif %}
       <div class="row">
-        <div class="col-lg-2 col-lg-offset-1">
+        <div class="col-lg-2 col-lg-offset-2">
           <p>
             {{ event.time }}
           </p>
@@ -74,7 +74,7 @@
       {% for event in item.combined %}
       {% if event.session %}
         <div class="row">
-          <div class="col-lg-8 text-center">
+          <div class="col-lg-8 text-center col-lg-offset-2">
             <h4>{{ event.session }}</h4>
             <br><br>
           </div>
