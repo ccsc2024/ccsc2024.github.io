@@ -34,6 +34,9 @@
             {{ event.time }}
           </p>
         </div>
+        <div class="col-lg-7">
+          <p>{{ event.descr }}</p>
+        </div>
         <div class="col-lg-1 text-center">
           {% if event.registration %}
             <i class="fa-solid fa-id-badge" style="font-size:24px;color:#ffffff;"></i>
@@ -60,9 +63,6 @@
             <i class="fa-solid fa-face-smile" style="font-size:24px;color:#ffffff;"></i>
           {%endif %}
         </div>
-        <div class="col-lg-7">
-          <p>{{ event.descr }}</p>
-        </div>
       </div>
       {% endfor %}
     </div>
@@ -87,6 +87,9 @@
           <p>
             {{ event.time }}
           </p>
+        </div>
+        <div class="col-lg-7">
+          <p>{{ event.descr }}</p>
         </div>
         <div class="col-lg-1 text-center">
           {% if event.registration %}
@@ -113,9 +116,6 @@
           {% if event.fun %}
             <i class="fa-solid fa-face-smile" style="font-size:24px;color:#A4004F;"></i>
           {%endif %}
-        </div>
-        <div class="col-lg-7">
-          <p>{{ event.descr }}</p>
         </div>
       </div>
       {% endfor %}
