@@ -34,13 +34,12 @@ color:
 footer:
   copyright: Dr. Carolin Müller
   location: Contact
-  social: Around the Web
+  social: Funding
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: github
-    url: https://github.com/ccsc2024/ccsc2024.github.io
+  - description: 'The conference is supported by ERC (772834, QML: Quantum Machine Learning: Chemical Reactions with Unprecedented Speed and Accuracy).'
 
 # Postal address (add as many lines as necessary)
 address:
