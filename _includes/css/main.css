@@ -482,3 +482,9 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* Font in registration form */
+
+#txtForms {
+      font-size: 24px;
+ }
