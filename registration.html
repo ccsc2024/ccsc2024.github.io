@@ -16,9 +16,15 @@ layout: page
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="title">Title</label>
-              <input type="text" name="title" class="form-control" placeholder="Title" id="name" 
+                 <select name="title" required>
+                   <option value="all"> </option> 
+                   <option value="phd">Dr.</option>
+                   <option value="prof">Prof.</option>
+                   <option value="juniorprof">Jun. Prof.</option>
+                 </select>
+              <!-- <input type="text" name="title" class="form-control" placeholder="Title" id="name" 
                 data-validation-required-message="Please enter your title (e.g. Prof.).">
-              <p class="help-block text-danger"></p>
+              <p class="help-block text-danger"></p> -->
             </div>
           </div>
           <div class="row control-group">
