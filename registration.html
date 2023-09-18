@@ -13,6 +13,7 @@ layout: page
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <form action="https://formspree.io/f/myyqkndv" method="POST" name="sentMessage" id="contactForm" novalidate>
+        
         <label>Salutation*</label>
         <select name="salutation" required>
           <option value="select">- please select -</option>
@@ -21,53 +22,77 @@ layout: page
           <option value="ms">Ms</option>
         </select>
         <br>
-        <div class="row control-group">
-          <div class="form-group col-xs-12 floating-label-form-group controls">
-            <label>Title</label>
-            <select name="title" >
-              <option value="select">- please select -</option>
-              <option value="phd">Dr.</option>
-              <option value="junprof">Jun. Prof.</option>
-              <option value="profdoc">Prof. Dr.</option>
-              <option value="prof">Prof.</option>
-            </select>
-          </div>
-        </div>
-        <br>
+        <label>Title</label>
+        <select name="title" >
+          <option value="select">- please select -</option>
+          <option value="phd">Dr.</option>
+          <option value="junprof">Jun. Prof.</option>
+          <option value="profdoc">Prof. Dr.</option>
+          <option value="prof">Prof.</option>
+        </select>
+
         <div class="row control-group">
           <div class="form-group col-xs-12 floating-label-form-group controls">
             <label for="name">First name*</label>
-            <input id="first name" name="name" type="text" required="" placeholder="First name"/>
+            <input type="text" name="name" class="form-control" required="" placeholder="First name"/>
           </div>
         </div>
         <div class="row control-group">
           <div class="form-group col-xs-12 floating-label-form-group controls">
             <label for="name">Surname*</label>
-            <input id="surname" name="name" type="text" required="" placeholder="Surname"/>
+            <input type="text" name="name" class="form-control" required="" placeholder="Surname"/>
           </div>
         </div>
-        <br>
-        <label>E-Mail*</label>
-        <input name="email" type="email" required/>
-        <br>
-        <label>Phone</label>
-        <input name="phone" type="phone number"/>
-        <br>
-        <label>Company</label>
-        <input name="company" type="company"/>
-        <br>
-        <label>Department</label>
-        <input name="department" type="text"/>
-        <br>
-        <label>Address*</label>
-        <input name="first name" type="address" required/>
-        <br>
-        <label>Postal code*</label>
-        <input name="first name" type="address" required/>
-        <br>
-        <label>City*</label>
-        <input name="first name" type="address" required/>
-        <br>
+        <!-- Mail -->
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>E-Mail*</label>
+            <input type="email" name="_replyto" class="form-control" placeholder="E-Mail" id="email" required="" />
+          </div>
+        </div>
+        <!-- Phone -->
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls"> 
+            <label>Phone</label>
+            <input name="phone" type="phone number"/>
+          </div>
+        </div>
+        <!-- Company -->
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>Company</label>
+            <input type="company" name="company" class="form-control" required="" placeholder="Company"/>
+          </div>
+        </div>
+        <!-- Department -->
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>Department</label>
+            <input type="text" name="department" class="form-control" required="" placeholder="Department"/>
+          </div>
+        </div>
+        <!-- address -->
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>Address*</label>
+            <input type="text" name="address" class="form-control" required="" placeholder="Address"/>
+          </div>
+        </div>
+        <!-- postal code -->
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>Postal code*</label>
+            <input type="text" name="zip" class="form-control" required="" placeholder="Postal code"/>
+          </div>
+        </div>  
+        <!-- city -->
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>City*</label>
+            <input type="text" name="city" class="form-control" required="" placeholder="City"/>
+          </div>
+        </div>  
+          
         <label>Country</label>
         <select name="country" required>
           <option value="select">- please select -</option>
