@@ -13,7 +13,22 @@ layout: page
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <form action="https://formspree.io/f/myyqkndv" method="POST" name="sentMessage" id="contactForm" novalidate>
-          <div class="row control-group">
+        <label>Department:</label>
+        <select name="department" required>
+          <option value="housewares">Housewares</option>
+          <option value="electronics">Electronics</option>
+        </select>
+        <label>Feedback:</label>
+        <textarea name="message"></textarea>
+        <label>Your Name:</label>
+        <input name="name" type="text" required/>
+        <label>Your Email: </label>
+        <input name="email" type="email" required/>
+        </form>
+      </div>
+    </div>
+    
+          <!-- <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="title">Title</label>
                  <select name="title" required>
@@ -24,7 +39,7 @@ layout: page
                  </select>
               <!-- <input type="text" name="title" class="form-control" placeholder="Title" id="name" 
                 data-validation-required-message="Please enter your title (e.g. Prof.).">
-              <p class="help-block text-danger"></p> -->
+              <p class="help-block text-danger"></p> 
             </div>
           </div>
           <div class="row control-group">
@@ -68,11 +83,11 @@ layout: page
           <div class="row">
             <div class="form-group col-xs-12">
               <!-- btn btn-success btn-lg -->
-              <!-- <button type="submit" class="btn btn-success btn-lg">Send</button> -->
+              <!-- <button type="submit" class="btn btn-success btn-lg">Send</button> 
             </div>
           </div>
         </form>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
