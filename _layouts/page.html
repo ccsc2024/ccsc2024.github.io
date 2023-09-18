@@ -1,24 +1,5 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-<head>
-  <!-- Include country dropdown menu from extra file -->
-  <script>
-    // Function to load and insert external HTML content
-    function includeHTML() {
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          document.getElementById("countryDropdown").innerHTML = this.responseText;
-        }
-      };
-      xhttp.open("GET", "countries.html", true);
-      xhttp.send();
-    }
-    // Call the includeHTML function to load the external content
-    includeHTML();
-  </script>
-</head>
   
 <body id="page-top" class="index">
   {% include nav.html %}
