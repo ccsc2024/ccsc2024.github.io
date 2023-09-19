@@ -30,10 +30,10 @@ layout: page
       <div class="col-lg-5">
         <div class="row control-group">
           <p><select name="salutation" required>
-            <option value="select">- please select -</option>
-            <option value="mr">Mr</option>
-            <option value="mrs">Mrs</option>
-            <option value="ms">Ms</option>
+            <option value="none">- please select -</option>
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Ms">Ms</option>
           </select></p>
         </div>
       </div>
@@ -45,12 +45,12 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><select name="title" >
-            <option value="select">- please select -</option>
-            <option value="phd">Dr.</option>
-            <option value="junprof">Jun. Prof.</option>
-            <option value="profdoc">Prof. Dr.</option>
-            <option value="prof">Prof.</option>
+          <p><select name="academic title" >
+            <option value="none">- please select -</option>
+            <option value="Dr.">Dr.</option>
+            <option value="Jun. Prof.">Jun. Prof.</option>
+            <option value="Prof. Dr.">Prof. Dr.</option>
+            <option value="Prof.">Prof.</option>
           </select></p>
         </div>
       </div>
@@ -58,22 +58,26 @@ layout: page
       <!-- First Name -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">First name*</label></p>
+        <p><label>First name*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="name" class="form-control" required="" placeholder="First name" id="txtForm"/></p>
+          <input type="text" name="firstName" class="form-control" required placeholder="First name" id="txtForm"
+          data-validation-required-message="Please enter your first name.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
       <!-- Surname -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">Surname*</label></p>
+        <p><label>Surname*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="name" class="form-control" required="" placeholder="Surname" id="txtForm"/></p>
+          <input type="text" name="lastName" class="form-control" required placeholder="Surname" id="txtForm"
+          data-validation-required-message="Please enter your last name.">
+          <p class="help-block text-danger"></p> 
         </div>
       </div>
       </div>
@@ -84,7 +88,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="email" name="_replyto" class="form-control" placeholder="E-Mail" required="" id="txtForm" /></p>
+          <input type="email" name="_replyto" class="form-control" placeholder="E-Mail" required id="txtForm"
+          data-validation-required-message="Please enter your phone number.">
+          <p class="help-block text-danger"></p>               
         </div>
       </div>
       </div>
@@ -95,7 +101,7 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input name="phone" type="phone number" class="form-control" placeholder="Phone" id="txtForm"/></p>
+          <input name="phone" type="phone" class="form-control" placeholder="Phone" id="txtForm">
         </div>
       </div>
       </div>
@@ -106,7 +112,7 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="company" name="company" class="form-control" required="" placeholder="Company" id="txtForm"/></p>
+          <input type="text" name="company" class="form-control" placeholder="Company" id="txtForm">
         </div>
       </div>
       </div>
@@ -117,7 +123,7 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="department" class="form-control" required="" placeholder="Department" id="txtForm"/></p>
+          <input type="text" name="department" class="form-control" placeholder="Department" id="txtForm">
         </div>
       </div>
       </div>
@@ -128,7 +134,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="address" class="form-control" required="" placeholder="Address" id="txtForm"/></p>
+          <input type="text" name="address" class="form-control" required placeholder="Address" id="txtForm"
+          data-validation-required-message="Please enter your billing address.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -139,7 +147,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="zip" class="form-control" required="" placeholder="Postal code" id="txtForm"/></p>
+          <input type="text" name="zip" class="form-control" required placeholder="Postal code" id="txtForm"
+          data-validation-required-message="Please enter your billing ZIP.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -150,7 +160,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="city" class="form-control" required="" placeholder="City" id="txtForm"/></p>
+          <input type="text" name="city" class="form-control" required placeholder="City" id="txtForm"
+          data-validation-required-message="Please enter your billing city.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -165,10 +177,11 @@ layout: page
         </div>
       </div>
       </div>
+      <br><br>
       <!-- Abstract -->
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2>Authors of the Abstract</h2>
+          <h3>Authors of the Abstract</h3>
           <hr class="star-primary">
           <br><br>
         </div>
@@ -176,37 +189,58 @@ layout: page
       <!-- Presenting Author -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">Surname presenting author*</label></p>
+        <p><label>Surname presenting author*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="name" class="form-control" required="" placeholder="Surname presenting author" id="txtForm"/></p>
+          <input type="text" name="lastName_PA" class="form-control" required placeholder="Surname presenting author" id="txtForm"
+          data-validation-required-message="Please enter your last name.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">Initial(s) first name presenting author (<i>e.g.</i> M.)*</label></p>
+        <p><label>Initial(s) first name presenting author (<i>e.g.</i> M.)*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="name" class="form-control" required="" placeholder="Initial(s) first name presenting author (<i>e.g.</i> M.)" id="txtForm"/></p>
+          <input type="text" name="firstName_PA" class="form-control" required placeholder="Initial(s) first name presenting author" id="txtForm"
+          data-validation-required-message="Please enter the initials of your first name(s).">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
+        <!-- Company -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">City presenting author*</label></p>
+        <p><label>Company presenting author*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="city" class="form-control" required="" placeholder="City presenting author" id="txtForm"/></p>
+          <input type="text" name="company_PA" class="form-control" required placeholder="Company presenting author" id="txtForm"
+          data-validation-required-message="Please enter your affiliation company.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
+      <!-- City -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">Country presenting author*</label></p>
+        <p><label>City presenting author*</label></p>
+      </div>
+      <div class="col-lg-5">
+        <div class="row control-group">
+          <input type="text" name="city_PA" class="form-control" required placeholder="City presenting author" id="txtForm"
+          data-validation-required-message="Please enter your affiliation city.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      </div>
+      <!-- country -->
+      <div class="row">
+      <div class="col-lg-3 col-lg-offset-2">
+        <p><label>Country presenting author*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
@@ -214,20 +248,115 @@ layout: page
         </div>
       </div>
       </div>
-      <!-- Surname -->
+      <br><br>
+      <!-- Co-author(s) -->
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3>Co-author(s)</h3>
+          <hr class="star-primary">
+          <br><br>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-lg-3 col-lg-offset-2">
+        <p><label>Initial(s) first name(s) and surname(s) of co-author(s) (<i>e.g.</i> M. Muster, T. Mann)</label></p>
+      </div>
+      <div class="col-lg-5">
+        <div class="row control-group">
+          <p><input type="text" name="name_CAs" class="form-control" placeholder="Initial(s) first name(s) and surname(s) of co-author(s)" id="txtForm"/></p>
+        </div>
+      </div>
+      </div>
+      <!-- Abstract -->
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3>Abstract Submission</h3>
+          <hr class="star-primary">
+          <br><br>
+        </div>
+      </div>
+      <!-- Title of presentation -->
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-2">
+          <p><label>Title of presentation*</label></p>
+        </div>
+        <div class="col-lg-5">
+          <div class="row control-group">
+            <input type="text" name="title_Presentation" class="form-control" required placeholder="Title of presentation " id="txtForm"
+            data-validation-required-message="Please enter the title of your contribution.">
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+      </div>
+      <!-- abstract of presentation -->
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-2">
+          <p><label>Abstract*</label></p>
+        </div>
+        <div class="col-lg-5">
+          <div class="row control-group">
+            <p><textarea name="abstract" type="text" class="form-control" required 
+              placeholder="Abstract" id="txtForm" 
+              data-validation-required-message="Please enter your abstract in plain, markdown or LaTeX style."></textarea>
+            </p>
+          <p class="help-block text-danger"></p>
+          </div>
+        </div>
+      </div>
+      <!-- Change to poster -->
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-2">
+          <p><label>Contribution can be changed to poster</label></p>
+        </div>
+        <div class="col-lg-5">
+          <div class="row control-group">
+              <input type="checkbox" name="change_poster" value="Yes" placeholder="Yes">
+          </div>
+        </div>
+      </div>
+      <!-- Change to talk -->
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-2">
+          <p><label>Contribution can be changed to speed talk (15 min) </label></p>
+        </div>
+        <div class="col-lg-5">
+          <div class="row control-group">
+              <input type="checkbox" name="change_speedTalk" value="Yes" placeholder="Yes">
+          </div>
+        </div>
+      </div>
+      <!-- Field -->
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-2">
+          <p><label>States of Matter*</label></p>
+        </div>
+        <div class="col-lg-5">
+          <div class="row control-group">
+            <p><select name="topic" >
+            <option value='main_topic'>Main topic (state of matter does not apply)</option>
+            <option value="MLFF_topic">Polymers, Soft Matter, Biomaterials</option>
+            <option value="MLFF_topic">Solids and Crystals</option>
+            <option value="MLFF_topic">Surfaces and Interfaces</option>
+            <option value="MLFF_topic">Thermochemistry and -physics</option>
+            <option value="MLFF_topic">Photochemistry and -physics</option>
+            <option value="no_topic">Does not apply (independent of any state of matter)</option>
+          </select></p>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <!-- Send button -->
+      <div id="success"></div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>Fields marked with * have to be filled.</p>
+          <br><br>
+          <div class="form-group col-xs-12">
+            <!-- <button type="submit" class="btn btn-success btn-lg">Submit</button> -->
+          </div>
+        </div>
+      </div>
       </form>
     </div>
   </div>
 </section>
-
-<!-- Initial(s) first name presenting author (e.g. M.) 
-<!--      <div id="success"></div>
-          <div class="row">
-            <div class="form-group col-xs-12">
-              <!-- btn btn-success btn-lg -->
-              <!-- <button type="submit" class="btn btn-success btn-lg">Send</button> 
-            </div>
-          </div>
-        </form>
-      </div>
-    </div> -->
