@@ -58,7 +58,7 @@ layout: page
       <!-- First Name -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">First name*</label></p>
+        <p><label>First name*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
@@ -69,7 +69,7 @@ layout: page
       <!-- Surname -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">Surname*</label></p>
+        <p><label>Surname*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
@@ -95,7 +95,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input name="phone" type="phone number" class="form-control" placeholder="Phone" id="txtForm"/></p>
+          <input name="phone" type="phone number" class="form-control" placeholder="Phone" id="txtForm"
+            data-validation-required-message="Please enter your phone number.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -106,7 +108,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="company" name="company" class="form-control" required="" placeholder="Company" id="txtForm"/></p>
+          <input type="company" name="company" class="form-control" required="" placeholder="Company" id="txtForm"
+              data-validation-required-message="Please enter your company/affiliation.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -117,7 +121,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="department" class="form-control" required="" placeholder="Department" id="txtForm"/></p>
+          <input type="text" name="department" class="form-control" required="" placeholder="Department" id="txtForm"
+          data-validation-required-message="Please enter your department/affiliation.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -128,7 +134,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="address" class="form-control" required="" placeholder="Address" id="txtForm"/></p>
+          <input type="text" name="address" class="form-control" required="" placeholder="Address" id="txtForm"
+          data-validation-required-message="Please enter your billing address.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -139,7 +147,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="zip" class="form-control" required="" placeholder="Postal code" id="txtForm"/></p>
+          <input type="text" name="zip" class="form-control" required="" placeholder="Postal code" id="txtForm"
+          data-validation-required-message="Please enter your billing ZIP.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -150,7 +160,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="city" class="form-control" required="" placeholder="City" id="txtForm"/></p>
+          <input type="text" name="city" class="form-control" required="" placeholder="City" id="txtForm"
+          data-validation-required-message="Please enter your billing city.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -177,7 +189,7 @@ layout: page
       <!-- Presenting Author -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">Surname presenting author*</label></p>
+        <p><label>Surname presenting author*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
@@ -187,7 +199,7 @@ layout: page
       </div>
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">Initial(s) first name presenting author (<i>e.g.</i> M.)*</label></p>
+        <p><label>Initial(s) first name presenting author (<i>e.g.</i> M.)*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
@@ -198,7 +210,7 @@ layout: page
         <!-- Company -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">Company presenting author*</label></p>
+        <p><label>Company presenting author*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
@@ -209,7 +221,7 @@ layout: page
       <!-- City -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">City presenting author*</label></p>
+        <p><label>City presenting author*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
@@ -220,7 +232,7 @@ layout: page
       <!-- country -->
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">Country presenting author*</label></p>
+        <p><label>Country presenting author*</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
@@ -239,7 +251,7 @@ layout: page
       </div>
       <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <p><label for="name">Initial(s) first name(s) and surname(s) of co-author(s) (<i>e.g.</i> M. Muster, T. Mann)</label></p>
+        <p><label>Initial(s) first name(s) and surname(s) of co-author(s) (<i>e.g.</i> M. Muster, T. Mann)</label></p>
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
@@ -257,7 +269,7 @@ layout: page
       </div>
       <div class="row">
         <div class="col-lg-3 col-lg-offset-2">
-          <p><label for="itle">Title of presentation*</label></p>
+          <p><label>Title of presentation*</label></p>
         </div>
         <div class="col-lg-5">
           <div class="row control-group">
