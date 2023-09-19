@@ -43,8 +43,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Address Line 1
-  - line: Address Line 2
+  - line: <a href="/contact/" class="btn btn-lg btn-outline">Contact Us</a>
+  # - line: Address Line 2
 
 # Credits content
 credits: 'Powered by Jekyll.<br> <a href="/impressum/" class="btn btn-lg btn-outline">Impressum</a>' # add impressum as link
