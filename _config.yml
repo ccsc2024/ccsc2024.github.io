@@ -43,8 +43,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: <a href="/contact/" class="success">Contact Form</a>
-  - line: <a href="mailto:chemcompspace@gmail.com" class="success">Send a Mail</a>
+  - line: <a href="/contact/" style="color:#ffffff;text-decoration:underline;">Contact Form</a>
+  - line: <a href="mailto:chemcompspace@gmail.com" style="color:#ffffff;text-decoration:underline;">Send a Mail</a>
   # - line: Address Line 2
 
 # Credits content
