@@ -193,7 +193,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="lastName_PA" class="form-control" required placeholder="Surname presenting author" id="txtForm"/></p>
+          <input type="text" name="lastName_PA" class="form-control" required placeholder="Surname presenting author" id="txtForm"
+          data-validation-required-message="Please enter your last name.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -203,7 +205,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="firstName_PA" class="form-control" required placeholder="Initial(s) first name presenting author" id="txtForm"/></p>
+          <input type="text" name="firstName_PA" class="form-control" required placeholder="Initial(s) first name presenting author" id="txtForm"
+          data-validation-required-message="Please enter the initials of your first name(s).">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -214,7 +218,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="company_PA" class="form-control" required placeholder="Company presenting author" id="txtForm"/></p>
+          <input type="text" name="company_PA" class="form-control" required placeholder="Company presenting author" id="txtForm"
+          data-validation-required-message="Please enter your affiliation company.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -225,7 +231,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="city_PA" class="form-control" required placeholder="City presenting author" id="txtForm"/></p>
+          <input type="text" name="city_PA" class="form-control" required placeholder="City presenting author" id="txtForm"
+          data-validation-required-message="Please enter your affiliation city.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -274,7 +282,9 @@ layout: page
         </div>
         <div class="col-lg-5">
           <div class="row control-group">
-            <p><input type="text" name="title_Presentation" class="form-control" required placeholder="Title of presentation " id="txtForm"/></p>
+            <input type="text" name="title_Presentation" class="form-control" required placeholder="Title of presentation " id="txtForm"
+            data-validation-required-message="Please enter the title of your contribution.">
+            <p class="help-block text-danger"></p>
           </div>
         </div>
       </div>
@@ -300,18 +310,18 @@ layout: page
         </div>
         <div class="col-lg-5">
           <div class="row control-group">
-              <input type="checkbox" name="change_poster" value="Yes">
+              <input type="checkbox" name="change_poster" value="Yes"
           </div>
         </div>
       </div>
       <!-- Change to talk -->
       <div class="row">
         <div class="col-lg-3 col-lg-offset-2">
-          <p><label>Contribution can be changed to lecture</label></p>
+          <p><label>Contribution can be changed to speed talk (15 min) </label></p>
         </div>
         <div class="col-lg-5">
           <div class="row control-group">
-              <input type="checkbox" name="change_talk" value="Yes">
+              <input type="checkbox" name="change_speedTalk" value="Yes">
           </div>
         </div>
       </div>
