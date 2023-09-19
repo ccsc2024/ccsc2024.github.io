@@ -62,7 +62,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="firstName" class="form-control" required placeholder="First name" id="txtForm"/></p>
+          <input type="text" name="firstName" class="form-control" required placeholder="First name" id="txtForm"
+          data-validation-required-message="Please enter your first name.">
+          <p class="help-block text-danger"></p>
         </div>
       </div>
       </div>
@@ -73,7 +75,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="text" name="lastName" class="form-control" required placeholder="Surname" id="txtForm"/></p>
+          <input type="text" name="lastName" class="form-control" required placeholder="Surname" id="txtForm"
+          data-validation-required-message="Please enter your last name.">
+          <p class="help-block text-danger"></p> 
         </div>
       </div>
       </div>
@@ -84,7 +88,9 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <p><input type="email" name="_replyto" class="form-control" placeholder="E-Mail" required id="txtForm" /></p>
+          <input type="email" name="_replyto" class="form-control" placeholder="E-Mail" required id="txtForm"
+          data-validation-required-message="Please enter your phone number.">
+          <p class="help-block text-danger"></p>               
         </div>
       </div>
       </div>
@@ -95,9 +101,7 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <input name="phone" type="phone" class="form-control" placeholder="Phone" id="txtForm"
-            data-validation-required-message="Please enter your phone number.">
-          <p class="help-block text-danger"></p>
+          <input name="phone" type="phone" class="form-control" placeholder="Phone" id="txtForm">
         </div>
       </div>
       </div>
@@ -108,9 +112,7 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <input type="text" name="company" class="form-control" required placeholder="Company" id="txtForm"
-              data-validation-required-message="Please enter your company/affiliation.">
-          <p class="help-block text-danger"></p>
+          <input type="text" name="company" class="form-control" required placeholder="Company" id="txtForm">
         </div>
       </div>
       </div>
@@ -121,9 +123,7 @@ layout: page
       </div>
       <div class="col-lg-5">
         <div class="row control-group">
-          <input type="text" name="department" class="form-control" required placeholder="Department" id="txtForm"
-          data-validation-required-message="Please enter your department/affiliation.">
-          <p class="help-block text-danger"></p>
+          <input type="text" name="department" class="form-control" required placeholder="Department" id="txtForm">
         </div>
       </div>
       </div>
