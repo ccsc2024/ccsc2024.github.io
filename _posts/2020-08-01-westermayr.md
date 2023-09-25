@@ -6,9 +6,9 @@ img: julia_westermayrh.png
 alt: Julia Westermayr
 categories: [example]
 title: Prof. Julia Westermayr
-linkedin: 
-twitter: 
-web: 
+linkedin: https://www.linkedin.com/in/julia-westermayr-44397021a/
+twitter: https://twitter.com/JWestermayr
+web: https://www.chemie.uni-leipzig.de/wilhelm-ostwald-institut-fuer-physikalische-und-theoretische-chemie/juniorprofessur-westermayr
 researchgate: 
 description: Assitant Professor at University of Leipzig.
 ---
