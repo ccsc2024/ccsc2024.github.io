@@ -2,7 +2,7 @@
 layout: default
 modal-id: 9
 date: 2020-08-01
-img: julia_westermayrh.png
+img: julia_westermayr.png
 alt: Julia Westermayr
 categories: [example]
 title: Prof. Julia Westermayr
