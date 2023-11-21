@@ -49,7 +49,7 @@ address:
   # - line: Address Line 2
 
 # Credits content
-credits: <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/ccsc2024_mini-logo.png" width="150" alt="mini-logo" />
+credits: <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/ccsc2024_mini-logo.png" width="100" alt="mini-logo" />
 #'Powered by Jekyll.<br> <a href="/impressum/" class="btn btn-lg btn-outline">Impressum</a>' # add impressum as link
 
 # Build settings
