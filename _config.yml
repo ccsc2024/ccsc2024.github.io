@@ -35,7 +35,7 @@ footer:
   copyright: Dr. Carolin Müller
   location: Contact
   social: Funding
-  credits: Credits
+  credits: 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -45,10 +45,12 @@ social:
 address:
   - line: <a href="/contact/" style="color:#ffffff;text-decoration:underline;">Contact Form</a>
   - line: <a href="mailto:chemcompspace@gmail.com" style="color:#ffffff;text-decoration:underline;">Send a Mail</a>
+  - line: <a href="/impressum/" class="btn btn-lg btn-outline">Impressum</a>
   # - line: Address Line 2
 
 # Credits content
-credits: 'Powered by Jekyll.<br> <a href="/impressum/" class="btn btn-lg btn-outline">Impressum</a>' # add impressum as link
+credits: <img style="vertical-align: top;" src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/ccsc2024_mini-logo.png" width="200" alt="mini-logo" />
+#'Powered by Jekyll.<br> <a href="/impressum/" class="btn btn-lg btn-outline">Impressum</a>' # add impressum as link
 
 # Build settings
 markdown: kramdown
