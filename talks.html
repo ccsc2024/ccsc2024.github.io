@@ -25,14 +25,14 @@ layout: page
     <br>
     {% for kt in site.categories.keynote %}
     <div class="row">
-      <div class="col-lg-1 text-center">
+      <div class="col-lg-1 col-lg-offset-2">
         <p>KT.{{ kt.talknumber }}</p>
       </div>
-      <div class="col-lg-2 col-lg-offset-2">
+      <div class="col-lg-3">
         <p>{{ kt.talktime }}</p>
       </div>
-      <div class="col-lg-7">
-          <p><b>{{ kt.title }}</b>, {{ kt.talktitle }}</p>
+      <div class="col-lg-6">
+          <p><b>{{ kt.title }}</b>,<br><br> {{ kt.talktitle }}</p>
       </div>
     </div>
     {% endfor %}
