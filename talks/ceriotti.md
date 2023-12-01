@@ -2,7 +2,7 @@
 layout: talkpage
 categories: [keynote]
 talknumber: D1.02
-talktime: '21.05.2023, 11:00 – 11:30 am'
+talktime: '21.05.2023, 11:00 – 11:45 am'
 speaker: Prof. Michele Ceriotti
 img: michele_ceriotti.png
 location: EPFL (CH)
