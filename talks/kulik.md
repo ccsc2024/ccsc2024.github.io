@@ -1,7 +1,7 @@
 ---
 layout: talkpage
 categories: [keynote]
-talknumber: D3.06
+talknumber: D3.01
 talktime: '23.05.2023, 09:00 – 09:30 am'
 speaker: Prof. Heather Kulik
 img: heather_kulik.png
