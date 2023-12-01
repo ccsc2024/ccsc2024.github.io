@@ -4,7 +4,7 @@ modal-id: 9
 date: 2020-08-01
 img: julia_westermayr.png
 alt: Julia Westermayr
-categories: [example]
+categories: [example, invited]
 title: Prof. Julia Westermayr
 linkedin: https://www.linkedin.com/in/julia-westermayr-44397021a/
 twitter: https://twitter.com/JWestermayr
