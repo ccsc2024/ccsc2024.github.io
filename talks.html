@@ -23,19 +23,16 @@ layout: page
       </div>
     </div>
     <br>
-    {% for kt in site.categories.keynote %}
+    
     <div class="row">
-      <div class="col-lg-1 col-lg-offset-2">
-        <p>KT.{{ kt.talknumber }}</p>
-      </div>
-      <div class="col-lg-3">
-        <p>{{ kt.talktime }}</p>
-      </div>
-      <div class="col-lg-6">
-          <p><b>{{ kt.title }}</b>,<br><br> {{ kt.talktitle }}</p>
+      <div class="col-lg-12">
+        <ul>
+          {% for kt in site.categories.keynote %}
+          <li><p><b>{{ kt.title }}</b>, {{ kt.affiliation }}</p></li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
-    {% endfor %}
   </div>
 </section>
 <br>
