@@ -12,4 +12,6 @@ web: https://www.utu.fi/en/people/milica-todorovic
 researchgate: 
 description: Assistant Professor, Materials Engineering, Turku University
 long_description: 
+affiliation: Turku University (FI)
+talktitle: todorovic
 ---
