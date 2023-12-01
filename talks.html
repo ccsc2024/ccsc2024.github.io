@@ -13,7 +13,7 @@ layout: page
   </div>
 </section>
 <br>
-<section class="success" id="poster 1">
+<section class="success" id="keynote talks">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -23,7 +23,6 @@ layout: page
       </div>
     </div>
     <br>
-    
     <div class="row">
       <div class="col-lg-10 col-lg-offset-2">
         <ul>
@@ -38,7 +37,7 @@ layout: page
   </div>
 </section>
 <br>
-<section id="poster 1">
+<section id="invited talks">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -47,16 +46,22 @@ layout: page
         <br>
       </div>
       <br>
-      <div class="col-lg-8 col-lg-offset-2">
-        <ul style="font-size:22px;color:#A4004F;">
-          <li><a href="" target="_blank"> P2.01 Amazing Title Again </a></li>
-        </ul>
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-2">
+          <ul>
+          {% for it in site.categories.invited %}
+            <li><a href="https://ccsc2024.github.io/talks/{{ it.talklink }}" target="_blank" style="font-size:20px;color:#5d308a;">
+              <b>{{ it.title }}</b>, {{ it.affiliation }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>  
   </div>
 </section>
 <br>
-<section id="poster 1">
+<section  class="success" id="contributed talks">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -65,10 +70,16 @@ layout: page
         <br>
       </div>
       <br>
-      <div class="col-lg-8 col-lg-offset-2">
-        <ul style="font-size:22px;color:#A4004F;">
-          <li><a href="" target="_blank"> tba </a></li>
-        </ul>
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-2">
+          <ul>
+          {% for ct in site.categories.contributed %}
+            <li><a href="https://ccsc2024.github.io/talks/{{ ct.talklink }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
+              <b>{{ ct.title }}</b>, {{ ct.affiliation }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>  
   </div>
