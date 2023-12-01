@@ -39,10 +39,10 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - img: 'logo_placeholder_small.png
-    title: 'Logo1'
-  - img: 'logo_placeholder_small.png
-    title: 'Logo2'
+  - title: Logo1
+          img: 'logo_placeholder_small.png
+  - title: Logo2
+          img: 'logo_placeholder_small.png
           
 # 'The conference is supported by <b>ERC 772834</b> (QML: Quantum Machine Learning: Chemical Reactions with Unprecedented Speed and Accuracy).'
 
