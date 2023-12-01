@@ -28,7 +28,10 @@ layout: page
       <div class="col-lg-10">
         <ul>
           {% for kt in site.categories.keynote %}
-          <li><a href="https://ccsc2024.github.io/talks/{{ kt.talklink }}" target="_blank"><p><b>{{ kt.title }}</b>, {{ kt.affiliation }}</p></a></li>
+          <li>
+            <a href="https://ccsc2024.github.io/talks/{{ kt.talklink }}" target="_blank" style="color:#FFFFFF;">
+            <p><b>{{ kt.title }}</b>, {{ kt.affiliation }}</p></a>
+          </li>
           {% endfor %}
         </ul>
       </div>
