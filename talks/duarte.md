@@ -1,7 +1,7 @@
 ---
 layout: talkpage
 categories: [keynote]
-talknumber: D2.04
+talknumber: D2.01
 talktime: '22.05.2023, 09:00 – 09:30 am'
 speaker: Prof. Fernanda Duarte
 img: fernanda_duarte.png
