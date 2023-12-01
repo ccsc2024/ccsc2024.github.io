@@ -11,4 +11,6 @@ twitter: https://twitter.com/JWestermayr
 web: https://www.chemie.uni-leipzig.de/wilhelm-ostwald-institut-fuer-physikalische-und-theoretische-chemie/juniorprofessur-westermayr
 researchgate: 
 description: Assitant Professor at University of Leipzig.
+affiliation: University of Leipzig (DE)
+talktitle: westermayr
 ---
