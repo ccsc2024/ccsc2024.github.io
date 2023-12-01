@@ -1,18 +1,11 @@
 ---
-layout: default
-modal-id: 7
-date: 2020-08-01
-img: michele_ceriotti.png
-alt: Michele Ceriotti
-categories: [example, keynote]
-title: Prof. Michele Ceriotti
-linkedin: https://www.linkedin.com/in/michele-ceriotti-94a70047/
-twitter: https://twitter.com/MicheleCeriotti
-web: https://people.epfl.ch/michele.ceriotti?lang=en
-researchgate: 
-description: Associate Professor at EPFL (Switzerland).
-talktitle: tba
-talknumber: 02
+layout: talkpage
+categories: [keynote]
+talknumber: D1.02
 talktime: '21.05.2023, 11:00 – 11:30 am'
-talklink: 
+speaker: Prof. Michele Ceriotti
+img: michele_ceriotti.png
+location: EPFL (CH)
+title: 'tba'
+abstract: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'
 ---
