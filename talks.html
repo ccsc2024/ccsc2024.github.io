@@ -1,3 +1,75 @@
 ---
-layout: speakerpage
+layout: page
 ---
+<section id="poster">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>List of Speakers</h2>
+        <hr class="star-primary">
+        <br>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<section class="success" id="poster 1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Keynote Talks</h2>
+        <hr class="star-light">
+        <br>
+      </div>
+    </div>
+    <br>
+    {% for kt in site.categories.keynote %}
+    <div class="row">
+      <div class="col-lg-1 text-center">
+        <p>KT.{{ kt.talknumber }}</p>
+      </div>
+      <div class="col-lg-2 col-lg-offset-2">
+        <p>{{ kt.talktime }}</p>
+      </div>
+      <div class="col-lg-7">
+          <p><b>{{ kt.title }}</b>, {{ kt.talktitle }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<section id="poster 1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Invited Talks</h2>
+        <hr class="star-primary">
+        <br>
+      </div>
+      <br>
+      <div class="col-lg-8 col-lg-offset-2">
+        <ul style="font-size:22px;color:#A4004F;">
+          <li><a href="" target="_blank"> P2.01 Amazing Title Again </a></li>
+        </ul>
+      </div>
+    </div>  
+  </div>
+</section>
+<br>
+<section id="poster 1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Contributed Talks</h2>
+        <hr class="star-primary">
+        <br>
+      </div>
+      <br>
+      <div class="col-lg-8 col-lg-offset-2">
+        <ul style="font-size:22px;color:#A4004F;">
+          <li><a href="" target="_blank"> tba </a></li>
+        </ul>
+      </div>
+    </div>  
+  </div>
+</section>
