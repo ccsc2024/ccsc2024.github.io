@@ -39,7 +39,12 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - description: 'The conference is supported by <b>ERC 772834</b> (QML: Quantum Machine Learning: Chemical Reactions with Unprecedented Speed and Accuracy).'
+  - img: 'logo_placeholder_small.png
+    title: 'Logo1'
+  - img: 'logo_placeholder_small.png
+    title: 'Logo2'
+          
+# 'The conference is supported by <b>ERC 772834</b> (QML: Quantum Machine Learning: Chemical Reactions with Unprecedented Speed and Accuracy).'
 
 # Postal address (add as many lines as necessary)
 address:
