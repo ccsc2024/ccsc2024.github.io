@@ -2,7 +2,7 @@
 layout: talkpage
 categories: [invited]
 talknumber: D1.05
-talktime: '21.05.2023, 14:30 – 15:00'
+talktime: '21.05.2024, 14:30 – 15:00'
 speaker: Prof. David Mobley
 img: david_mobley.png
 location: University of California Irvine (US)
