@@ -13,5 +13,5 @@ researchgate:
 description: Assistant Professor, Technion Israel Institute of Technology
 long_description: 
 affiliation: Technion Israel Institute of Technology (IL)
-talktitle: poranne
+talklink: poranne
 ---
