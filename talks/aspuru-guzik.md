@@ -2,7 +2,7 @@
 layout: talkpage
 categories: [keynote]
 talknumber: D1.01
-talktime: '21.05.2023, 10:15 – 11:00'
+talktime: '21.05.2024, 10:15 – 11:00'
 speaker: Prof. Alan Aspuru-Guzik
 img: alan_aspuru.png
 location: University of Toronto (CA)
