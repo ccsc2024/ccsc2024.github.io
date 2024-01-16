@@ -2,7 +2,7 @@
 layout: talkpage
 categories: [keynote]
 talknumber: D3.02
-talktime: '23.05.2023, 09:45 – 10:30 am'
+talktime: '23.05.2024, 09:45 – 10:30'
 speaker: Prof. Jacqueline Cole
 img: jacqueline_cole.png
 location: University of Cambridge (UK)
