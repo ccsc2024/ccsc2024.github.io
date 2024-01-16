@@ -12,5 +12,5 @@ web: https://www.chemie.uni-leipzig.de/wilhelm-ostwald-institut-fuer-physikalisc
 researchgate: 
 description: Assitant Professor at University of Leipzig.
 affiliation: University of Leipzig (DE)
-talktitle: westermayr
+talklink: westermayr
 ---
