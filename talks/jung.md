@@ -2,7 +2,7 @@
 layout: talkpage
 categories: [keynote]
 talknumber: D2.02
-talktime: '22.05.2023, 09:45 – 10:30 am'
+talktime: '22.05.2024, 09:45 – 10:30'
 speaker: Prof. Yousung Jung
 img: yousung_jung.png
 location: Seoul National University (KR)
