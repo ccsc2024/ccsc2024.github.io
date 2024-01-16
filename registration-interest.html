@@ -1,0 +1,85 @@
+---
+layout: page
+---
+
+<section id="registration">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Registration</h2>
+        <hr class="star-primary">
+        <br><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>
+            <b>Registration is not open yet.</b> 
+            If you wish to secure your spot at the conference, kindly complete the <i>Expression of interest</i> form below, 
+            and we will notify you as soon as registration becomes available.</p>
+          <br><br>
+          <h3>Expression of interest</h3>
+          <hr class="star-primary">
+          <br><br>
+        </div>
+      </div>
+      <form action="https://formspree.io/f/myyqkndv" method="POST" name="sentMessage" id="contactForm" novalidate>
+      <!-- First Name -->
+      <div class="row">
+      <div class="col-lg-2 col-lg-offset-2">
+        <p><label>First name*</label></p>
+      </div>
+      <div class="col-lg-5">
+        <div class="row control-group">
+          <input type="text" name="firstName" class="form-control" required placeholder="First name" id="txtForm"
+          data-validation-required-message="Please enter your first name.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      </div>
+      <!-- Surname -->
+      <div class="row">
+      <div class="col-lg-2 col-lg-offset-2">
+        <p><label>Surname*</label></p>
+      </div>
+      <div class="col-lg-5">
+        <div class="row control-group">
+          <input type="text" name="lastName" class="form-control" required placeholder="Surname" id="txtForm"
+          data-validation-required-message="Please enter your last name.">
+          <p class="help-block text-danger"></p> 
+        </div>
+      </div>
+      </div>
+      <!-- Mail -->
+      <div class="row">
+      <div class="col-lg-2 col-lg-offset-2">
+        <p><label>E-Mail*</label></p>
+      </div>
+      <div class="col-lg-5">
+        <div class="row control-group">
+          <input type="email" name="_replyto" class="form-control" placeholder="E-Mail" required id="txtForm"
+          data-validation-required-message="Please enter your mail address.">
+          <p class="help-block text-danger"></p>               
+        </div>
+      </div>
+      </div>
+      <br><br>
+      <!-- Send button -->
+      <div id="success"></div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>By providing your email address, you consent to us contacting you with updates and 
+            notifications regarding the conference registration. We will only use your email for 
+            this purpose and will not share it with third parties.
+          </p>
+          <br><br>
+          <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-success btn-lg">Send</button>
+          </div>
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+</section>
