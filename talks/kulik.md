@@ -1,8 +1,8 @@
 ---
 layout: talkpage
 categories: [keynote]
-talknumber: D3.01
-talktime: '23.05.2024, 09:00 – 09:45'
+talknumber: D1.02
+talktime: '21.05.2024, 11:00 – 11:45'
 speaker: Prof. Heather Kulik
 img: heather_kulik.png
 location: Massachusetts Institute of Technology (US)
