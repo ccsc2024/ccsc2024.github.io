@@ -1,7 +1,43 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-  
+
+<head>
+  <style>
+    /* ol.references>li {
+      font-size: 20px;
+    } */
+    ol.references>li::marker {
+      content: "[" counter(list-item) "]  ";
+    }
+
+    .darkpurple {
+      color:#3f0a74
+    }
+
+    img.zoom {
+      cursor: zoom-in;
+    }
+
+    img.zoom:active {
+      transform:scale(2);
+    }
+
+    @media (min-width: 601px) {
+      .abstractfigure{
+        clear: left;
+        clear: right;
+      }
+    }
+    @media (max-width: 600px) {
+      .abstractfigure{
+        clear: left;
+        clear: right;
+      }
+    }
+  </style>
+</head>
+
 <body id="page-top" class="index">
   
   {% include nav.html %}
@@ -18,16 +54,47 @@
         </div>
       </div>
       <!-- abstract -->
-      <div class="row">
+      <div class="row darkpurple">
         <div class="col-lg-12">
           <h4>{{ page.title }}</h4>
-          <br>
-          <h5>{{ page.authors }}</h5>
-          <br>
-          <p>{{ page.abstract }}</p>
-          <br><br>
+          <p class="authors">
+            {{ page.authors | replace: "[", "<sup>" | replace: "]", "</sup>"}}
+          </p>
+          <br/>
+          <div class="row">
+            {%- for paragraph in page.abstract %}
+            <div class="col-lg-6">
+              <p style="text-align: justify; display: block; max-width: 60ch; font-size: auto;">{{ paragraph }}</p>
+            </div>
+            {%- endfor %}
+
+            {%- if page.abstractfigure %}
+            <div class="col-lg-6 abstractfigure" style="float: right; margin-top: 0em;">
+              <img 
+                src="/img/abstractfigures/{{ page.abstractfigure }}"
+                style="width: 100%"
+                class="img-responsive zoom">
+              {%- if page.figuretext %}
+              <p style="font-size: auto; text-align: justify; max-width: 60ch;"><b>Fig. 1</b> {{ page.figuretext }}</p>
+              {%- endif %}
+            </div>         
+            {%- endif %}
+          </div>
+          <br/>
+          <ol class="references">
+            {%- for ref in page.references %}
+            <li>
+              {{ ref[0] }},
+              <i>{{ ref[1] }}</i>
+              <b>{{ ref[2] }}</b>,
+              <i>{{ ref[3] }}</i>,
+              {{ ref[4] }}.
+            </li>
+            {%- endfor %}
+          </ol>
         </div>
       </div>
+      <br><br>
       <!-- now some details about the speaker -->
       <div class="row">
       <div class="col-lg-4 col-lg-offset-2">
@@ -36,7 +103,12 @@
       <div class="col-lg-4">
         <h4>{{ page.speaker }}</h4>
         <br><br>
-        <p><i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;"></i>&nbsp {{ page.location }}</p>
+        <p>
+          <i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;"></i>&nbsp
+          {%- for loc in page.location %}  
+          {{ loc }}<br><br>
+          {% endfor %}
+        </p>
       </div>
       </div>
     </div>
