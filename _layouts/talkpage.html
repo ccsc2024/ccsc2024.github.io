@@ -4,11 +4,12 @@
 
 <head>
   <style>
-    /* ol.references>li {
-      font-size: 20px;
-    } */
     ol.references>li::marker {
       content: "[" counter(list-item) "]  ";
+    }
+
+    ol.references {
+      max-width: 70ch;
     }
 
     .darkpurple {
@@ -23,18 +24,51 @@
       transform:scale(2);
     }
 
-    @media (min-width: 601px) {
-      .abstractfigure{
-        clear: left;
-        clear: right;
-      }
+    .titleauthor {
+      /* max-width: 50ch; */
+      margin: auto;
+      text-align: left;
+      text-wrap: pretty;
     }
-    @media (max-width: 600px) {
-      .abstractfigure{
-        clear: left;
-        clear: right;
-      }
+
+    /* div.abstract {
+      border: solid;
+    } */
+    
+    /* div.abstract:has(> div.abstractfigure) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 8ch;
     }
+    
+    div.abstract:not(:has(> div.abstractfigure)) {
+      columns: 2;
+    } */
+    .abstract p {
+      max-width: 60ch;
+      text-align: justify;
+    }
+
+    .abstract {
+      font-size: 20px;
+    }
+
+    .abstract figure {
+      flex: 1 1 0px;
+      margin-top: 0em;
+    }
+
+    .abstract figure figcaption {
+      font-size: 0.9em;
+    }
+
+    @media (min-width: 127ch) {
+      .twocolumn {
+      columns: 2;
+      column-gap: 7ch;
+    }
+    }   
   </style>
 </head>
 
@@ -43,44 +77,53 @@
   {% include nav.html %}
   <section id="talk">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
+      <div class="col-lg-12 text-center">
           <br><br>
           <h3>Talk #{{ page.talknumber }}</h3>
           <h4> {{ page.talktime }} </h4>
           <br>
           <hr class="star-primary">
           <br><br>
-        </div>
       </div>
+      
       <!-- abstract -->
-      <div class="row darkpurple">
-        <div class="col-lg-12">
-          <h4>{{ page.title }}</h4>
+      {%- assign wordcount = (page.abstract | join: " " | split: " " | size ) %}
+      {%- if page.abstractfigure or wordcount < 150 %}
+        {%- assign textclass = "col-lg-6" %}
+      {% else %}
+        {%- assign textclass = "twocolumn" %}
+      {%- endif %}
+      <div class="row darkpurple abstract">
+        <div class="titleauthor">
+          <h4 >{{ page.title }}</h4>
           <p class="authors">
-            {{ page.authors | replace: "[", "<sup>" | replace: "]", "</sup>"}}
+            {{ page.authors | replace: "[", "<sup>" | replace: "]", "</sup>" }}
           </p>
-          <br/>
-          <div class="row">
+        </div>
+        <br/>
+        <div class="abstract row">
+          <div class="{{textclass}}">
             {%- for paragraph in page.abstract %}
-            <div class="col-lg-6">
-              <p style="text-align: justify; display: block; max-width: 60ch; font-size: auto;">{{ paragraph }}</p>
-            </div>
+            <p>{{ paragraph }}</p>
             {%- endfor %}
-
-            {%- if page.abstractfigure %}
-            <div class="col-lg-6 abstractfigure" style="float: right; margin-top: 0em;">
-              <img 
-                src="/img/abstractfigures/{{ page.abstractfigure }}"
-                style="width: 100%"
-                class="img-responsive zoom">
-              {%- if page.figuretext %}
-              <p style="font-size: auto; text-align: justify; max-width: 60ch;"><b>Fig. 1</b> {{ page.figuretext }}</p>
-              {%- endif %}
-            </div>         
-            {%- endif %}
           </div>
-          <br/>
+
+          {%- if page.abstractfigure %}
+          <figure class="col-lg-6">
+            <img 
+              src="/img/abstractfigures/{{ page.abstractfigure }}"
+              style="width: 100%"
+              class="img-responsive zoom">
+            {%- if page.figuretext %}
+            <figcaption>
+              <b>Fig. 1</b> {{ page.figuretext }}
+            </figcaption>
+            {%- endif %}
+          </figure>         
+          {%- endif %}
+        </div>
+        <br/>
+        <small>
           <ol class="references">
             {%- for ref in page.references %}
             <li>
@@ -92,25 +135,29 @@
             </li>
             {%- endfor %}
           </ol>
+        </small>
+
+        <!-- now some details about the speaker -->
+        <div class="col-lg-12">
+          <div class="col-lg-4 col-lg-offset-2">
+            <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/speaker/{{ page.img }}" class="img-responsive" alt="{{ page.speaker }}">
+          </div>
+          <div class="col-lg-4">
+            <h4>{{ page.speaker }}</h4>
+            <br><br>
+            <p>
+              <i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;"></i>&nbsp
+              {%- for loc in page.location %}  
+              {{ loc }}<br><br>
+              {% endfor %}
+            </p>
+          </div>
         </div>
+
       </div>
-      <br><br>
-      <!-- now some details about the speaker -->
-      <div class="row">
-      <div class="col-lg-4 col-lg-offset-2">
-        <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/speaker/{{ page.img }}" class="img-responsive" alt="{{ page.speaker }}">
-      </div>
-      <div class="col-lg-4">
-        <h4>{{ page.speaker }}</h4>
-        <br><br>
-        <p>
-          <i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;"></i>&nbsp
-          {%- for loc in page.location %}  
-          {{ loc }}<br><br>
-          {% endfor %}
-        </p>
-      </div>
-      </div>
+      
+
+
     </div>
   </section>
   
