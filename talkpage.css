@@ -1,0 +1,100 @@
+/* Formatting rules */
+
+ol.references>li::marker {
+  content: "[" counter(list-item) "]  ";
+}
+
+img.zoom {
+  cursor: zoom-in;
+}
+
+img.zoom:active {
+  transform:scale(2);
+}
+
+.abstract hgroup {
+  text-align: left;
+  text-wrap: pretty;
+}
+
+
+abstract-text p + p {
+  text-indent: 2ch;
+}
+
+.abstract {
+  color:#3f0a74;
+}
+
+.abstract figure {
+  font-size: 0.9em;
+}
+
+.speaker {
+  border-left: 1px solid;
+}
+
+/* Layout rules */
+
+ol.references {
+  max-width: 70ch;
+}
+
+.abstract {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.abstract> hgroup, .references {
+  flex-basis: 100%;
+  width: 100%;
+}
+
+.abstract .break {
+  display: block;
+  flex-basis: 100%;
+  height: 0;
+}
+
+.abstract {
+  max-width: 60ch;
+  text-align: justify;
+}
+
+.abstract .references {
+  text-align: left;
+}
+
+abstract-wrapper {
+  display: flex;
+}
+
+.abstract {
+  --width: 140ch;
+  flex-basis: var(--width);
+  margin-left: 50%;
+}
+
+.abstract figure {
+  margin-left: 10ch;
+  width: 60ch;
+}
+
+.twocolumn {
+  column-width: 70ch;
+  column-gap: 15ch;
+}
+
+abstract-and-speaker {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.speaker {
+  flex: 0.3;
+  padding: 0px 5ch;
+}

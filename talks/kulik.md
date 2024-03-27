@@ -4,6 +4,7 @@ categories: [keynote]
 talknumber: D1.02
 talktime: '21.05.2024, 11:00 – 11:45'
 speaker: Prof. Heather Kulik
+authors: Prof. Heather Kulik
 img: heather_kulik.png
 location: 'Department of Chemical Engineering and Department of Chemistry, Massachusetts
 Institute of Technology, Cambridge, MA 02139'
