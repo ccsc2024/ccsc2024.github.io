@@ -7,7 +7,7 @@
 <body id="page-top" class="index">
   
   {% include nav.html %}
-  <section id="talk" class="container">
+  <main id="talk" class="container">
     <!-- <div class="container"> -->
     <hgroup class="row text-center">
       <br><br>
@@ -24,7 +24,7 @@
     {% else %}
     {%- assign textclass = "twocolumn" %}
     {%- endif %}
-    <section id="talk-content">
+    <article id="talk-content">
 
       <hgroup>
         <h4 >{{ page.title }}</h4>
@@ -33,7 +33,7 @@
         </p>
       </hgroup>
 
-      <section id="abstract">
+      <abstract-content id="abstract">
         <abstract-text class="{{textclass}}">
           {%- for paragraph in page.abstract %}
           <p>{{ paragraph }}</p>
@@ -51,7 +51,7 @@
           {%- endif %}
         </figure>
         {%- endif %}
-      </section>
+      </abstract-content>
         
       <ol id="references">
         {%- for ref in page.references %}
@@ -65,19 +65,23 @@
         {%- endfor %}
       </ol>
 
-    </section>
+    </article>
 
-    <section id="speaker" class="">
+    <figure id="speaker">
       <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/speaker/{{ page.img }}" class="img-responsive" alt="{{ page.speaker }}">
-      <h4>{{ page.speaker }}</h4>
-      <br><br>
-      <i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;"></i>&nbsp
-      {%- for loc in page.location %}
-      <p>{{ loc }}</p>
-      {% endfor %}
-    </section>
+      <figcaption>
+        <speaker-name>{{ page.speaker }}</speaker-name>
+        
+        {%- for loc in page.location %}
+        <p>
+          <i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;">
+          </i>&nbsp;&nbsp;&nbsp;{{ loc }}
+        </p>
+        {% endfor %}
+      </figcaption>
+    </figure>
 
-  </section>
+  </main>
   
   {% include footer.html %}
   {% include js.html %}
