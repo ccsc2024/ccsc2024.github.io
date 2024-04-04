@@ -4,87 +4,79 @@
 {% assign extrastyles='/talkpage.css' %}
 {% include head.html %}
 
-
 <body id="page-top" class="index">
   
   {% include nav.html %}
-  <section id="talk">
+  <section id="talk" class="container">
     <!-- <div class="container"> -->
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <br><br>
-          <h3>Talk #{{ page.talknumber }}</h3>
-          <h4> {{ page.talktime }} </h4>
-          <br>
-          <hr class="star-primary">
-          <br><br>
-        </div>
-      </div>
-      
-      <abstract-and-speaker>
-        
-        <!-- abstract -->
-        {%- assign wordcount = page.abstract | join: " " | split: " " | size %}
-        {%- if wordcount < 150 or page.abstractfigure %}
-        {%- assign textclass = "" %}
-        {% else %}
-        {%- assign textclass = "twocolumn" %}
-        {%- endif %}
-        <abstract-wrapper class="abstract">
+    <hgroup class="row text-center">
+      <br><br>
+      <h3>Talk #{{ page.talknumber }}</h3>
+      <h4> {{ page.talktime }} </h4>
+      <br>
+      <hr class="star-primary">
+      <br><br>
+    </hgroup>
 
-          <hgroup class="titleauthor">
-            <h4 >{{ page.title }}</h4>
-            <p class="authors">
-              {{ page.authors | replace: "[", "<sup>" | replace: "]", "</sup>" }}
-            </p>
-          </hgroup>
+    {%- assign wordcount = page.abstract | join: " " | split: " " | size %}
+    {%- if wordcount < 150 or page.abstractfigure %}
+    {%- assign textclass = "" %}
+    {% else %}
+    {%- assign textclass = "twocolumn" %}
+    {%- endif %}
+    <section id="talk-content">
 
-          <abstract-text class="{{textclass}}">
-            {%- for paragraph in page.abstract %}
-            <p>{{ paragraph }}</p>
-            {%- endfor %}
-          </abstract-text>
+      <hgroup>
+        <h4 >{{ page.title }}</h4>
+        <p class="authors">
+          {{ page.authors | replace: "[", "<sup>" | replace: "]", "</sup>" }}
+        </p>
+      </hgroup>
 
-          {%- if page.abstractfigure %}
-          <figure class="">
-            <img
-              src="/img/abstractfigures/{{ page.abstractfigure }}"
-              class="img-responsive zoom">
-            {%- if page.figuretext %}
-            <figcaption>
-              <b>Fig. 1</b> {{ page.figuretext }}
-            </figcaption>
-            {%- endif %}
-          </figure>
+      <section id="abstract">
+        <abstract-text class="{{textclass}}">
+          {%- for paragraph in page.abstract %}
+          <p>{{ paragraph }}</p>
+          {%- endfor %}
+        </abstract-text>
+        {%- if page.abstractfigure %}
+        <figure class="">
+          <img
+            src="/img/abstractfigures/{{ page.abstractfigure }}"
+            class="img-responsive zoom">
+          {%- if page.figuretext %}
+          <figcaption>
+            <b>Fig. 1</b> {{ page.figuretext }}
+          </figcaption>
           {%- endif %}
+        </figure>
+        {%- endif %}
+      </section>
+        
+      <ol id="references">
+        {%- for ref in page.references %}
+        <li>
+          <ref-author>{{ ref[0] }}</ref-author>,
+          <ref-journal>{{ ref[1] }}</ref-journal>
+          <ref-year>{{ ref[2] }}</ref-year>,
+          <ref-volume>{{ ref[3] }}</ref-volume>,
+          <ref-pages>{{ ref[4] }}</ref-pages>.
+        </li>
+        {%- endfor %}
+      </ol>
 
-          <small class="references">
-            <ol>
-              {%- for ref in page.references %}
-              <li>
-                {{ ref[0] }},
-                <i>{{ ref[1] }}</i>
-                <b>{{ ref[2] }}</b>,
-                <i>{{ ref[3] }}</i>,
-                {{ ref[4] }}.
-              </li>
-              {%- endfor %}
-            </ol>
-          </small>
+    </section>
 
-        </abstract-wrapper>
+    <section id="speaker" class="">
+      <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/speaker/{{ page.img }}" class="img-responsive" alt="{{ page.speaker }}">
+      <h4>{{ page.speaker }}</h4>
+      <br><br>
+      <i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;"></i>&nbsp
+      {%- for loc in page.location %}
+      <p>{{ loc }}</p>
+      {% endfor %}
+    </section>
 
-        <speaker-details class="speaker">
-          <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/speaker/{{ page.img }}" class="img-responsive" alt="{{ page.speaker }}">
-          <h4>{{ page.speaker }}</h4>
-          <br><br>
-          <i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;"></i>&nbsp
-          {%- for loc in page.location %}
-          <p>{{ loc }}</p>
-          {% endfor %}
-      </speaker-details>
-
-      </abstract-and-speaker>
   </section>
   
   {% include footer.html %}

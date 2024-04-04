@@ -1,9 +1,5 @@
 /* Formatting rules */
 
-ol.references>li::marker {
-  content: "[" counter(list-item) "]  ";
-}
-
 img.zoom {
   cursor: zoom-in;
 }
@@ -12,17 +8,27 @@ img.zoom:active {
   transform:scale(2);
 }
 
-.abstract hgroup {
+#references li::marker {
+  content: "[" counter(list-item) "]  ";
+}
+
+ref-journal { font-style: italic; }
+ref-year { font-weight: bold; }
+ref-volume { font-style: italic; }
+ref-author, ref-pages { font-style: normal; }
+
+#abstract hgroup {
   text-align: left;
   text-wrap: pretty;
 }
-
 
 abstract-text p + p {
   text-indent: 2ch;
 }
 
-.abstract {
+abstract-text p {
+  max-width: 60ch;
+  text-align: justify;
   color:#3f0a74;
 }
 
@@ -30,23 +36,25 @@ abstract-text p + p {
   font-size: 0.9em;
 }
 
-.speaker {
-  border-left: 1px solid;
+#references {
+  max-width: 70ch;
 }
 
 /* Layout rules */
 
-ol.references {
-  max-width: 70ch;
-}
-
-.abstract {
+#abstract {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.abstract> hgroup, .references {
+/* ol.references {
+  max-width: 70ch;
+}
+
+.abstract > hgroup,
+.abstract > .references,
+.abstract > speaker-details {
   flex-basis: 100%;
   width: 100%;
 }
@@ -58,8 +66,7 @@ ol.references {
 }
 
 .abstract {
-  max-width: 60ch;
-  text-align: justify;
+  
 }
 
 .abstract .references {
@@ -97,4 +104,4 @@ abstract-and-speaker {
 .speaker {
   flex: 0.3;
   padding: 0px 5ch;
-}
+} */
