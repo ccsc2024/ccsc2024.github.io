@@ -17,91 +17,12 @@ ref-year { font-weight: bold; }
 ref-volume { font-style: italic; }
 ref-author, ref-pages { font-style: normal; }
 
-#abstract hgroup {
-  text-align: left;
-  text-wrap: pretty;
-}
-
-abstract-text p + p {
+p + p {
   text-indent: 2ch;
 }
 
-abstract-text p {
+p {
   max-width: 60ch;
   text-align: justify;
   color:#3f0a74;
 }
-
-.abstract figure {
-  font-size: 0.9em;
-}
-
-#references {
-  max-width: 70ch;
-}
-
-/* Layout rules */
-
-#abstract {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-/* ol.references {
-  max-width: 70ch;
-}
-
-.abstract > hgroup,
-.abstract > .references,
-.abstract > speaker-details {
-  flex-basis: 100%;
-  width: 100%;
-}
-
-.abstract .break {
-  display: block;
-  flex-basis: 100%;
-  height: 0;
-}
-
-.abstract {
-  
-}
-
-.abstract .references {
-  text-align: left;
-}
-
-abstract-wrapper {
-  display: flex;
-}
-
-.abstract {
-  --width: 140ch;
-  flex-basis: var(--width);
-  margin-left: 50%;
-}
-
-.abstract figure {
-  margin-left: 10ch;
-  width: 60ch;
-}
-
-.twocolumn {
-  column-width: 70ch;
-  column-gap: 15ch;
-}
-
-abstract-and-speaker {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-
-.speaker {
-  flex: 0.3;
-  padding: 0px 5ch;
-} */
