@@ -43,7 +43,7 @@ which are also known as positive influences.'
 references: [
     [
         'Jonas Teufel, Luca Torresi, Patrick Reiser, Pascal Friederich',
-        World Conference on Explainable Artificial Intelligence, 2023, 338–360
+        World Conference on Explainable Artificial Intelligence, 2023, false, 338–360
     ]
 ]
 ---

@@ -27,13 +27,13 @@
     <article id="talk-content">
 
       <hgroup>
-        <h4 >{{ page.title }}</h4>
+        <talk-title >{{ page.title }}</talk-title>
         <p class="authors">
           {{ page.authors | replace: "[", "<sup>" | replace: "]", "</sup>" }}
         </p>
       </hgroup>
 
-      <abstract-content id="abstract">
+      <abstract-content id="abstract" lang="en">
         <abstract-text class="{{textclass}}">
           {%- for paragraph in page.abstract %}
           <p>{{ paragraph }}</p>
@@ -56,11 +56,11 @@
       <ol id="references">
         {%- for ref in page.references %}
         <li>
-          <ref-author>{{ ref[0] }}</ref-author>,
-          <ref-journal>{{ ref[1] }}</ref-journal>
-          <ref-year>{{ ref[2] }}</ref-year>,
-          <ref-volume>{{ ref[3] }}</ref-volume>,
-          <ref-pages>{{ ref[4] }}</ref-pages>.
+          <ref-author>{{ ref[0] }}</ref-author>
+          {%- if ref[1] %}, <ref-journal>{{ ref[1] }}</ref-journal> {%- endif %}
+          {%- if ref[2] %} <ref-year>{{ ref[2] }}</ref-year>{%- endif %}
+          {%- if ref[3] %}, <ref-volume>{{ ref[3] }}</ref-volume>{%- endif %}
+          {%- if ref[4] %}, <ref-pages>{{ ref[4] }}</ref-pages>{%- endif %}.
         </li>
         {%- endfor %}
       </ol>

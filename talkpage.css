@@ -1,5 +1,9 @@
 /* Formatting rules */
 
+ol, ul, li {
+  font-size: inherit;
+}
+
 img.zoom {
   cursor: zoom-in;
 }
@@ -25,10 +29,29 @@ ref-author, ref-pages { font-style: normal; }
   text-indent: 2ch;
 }
 
-#abstract p {
-  max-width: 60ch;
+#abstract {
   text-align: justify;
+  
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;
+
   color:#3f0a74;
+}
+
+#abstract ol li {
+  font-size: 20px;
+}
+
+talk-title {
+  text-transform: none;
+  font-variant: small-caps;
+  font-size: 25px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
 }
 
 speaker-name {
@@ -39,21 +62,49 @@ speaker-name {
 
 /* Layout rules */
 
+main {
+  padding: 100px 0;
+}
+
 article {
   width: fit-content;
   margin:auto;
   padding-bottom: 100px;
 }
 
-main {
-  padding: 100px 0;
+abstract-content, #speaker {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 10ch;
 }
 
-/* Speaker */
+abstract-content {
+  justify-content: left;
+  width: fit-content(calc(2 * 50ch + 10ch));
+  padding-bottom: 40px;
+}
+
+abstract-text {
+  flex: 0 0 50ch;
+}
+
+abstract-text.twocolumn {
+  flex: 0 0 130ch;
+  column-width: 60ch;
+  column-gap: 10ch;
+}
+
+abstract-content figure {
+  flex: 0 0 50ch;
+}
+
 #speaker {
   display: flex;
   flex-flow: row wrap;
-  gap: 10ch;
+  column-gap: 3ch;
+}
+
+#speaker {
   justify-content: center;
 }
 
