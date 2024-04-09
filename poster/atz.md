@@ -1,10 +1,8 @@
 ---
-layout: talkpage
+layout: posterpage
 categories: []
-talknumber: '?'
-talktime: '?'
+posternumber: P02
 speaker: Kenneth Atz
-img: atz.png
 location: 'ETH Zurich'
 title: 'Machine learning C-H activation reactions for efficient
 exploration of drug-relevant chemical space'
