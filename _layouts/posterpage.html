@@ -27,47 +27,40 @@
         </div>
       </div>
       <br><br>
-      {%- if page.abstractfigure %}
-        <div class="row">
-          <div class="col-lg-4 col-lg-offset-2">
-            {%- for paragraph in page.abstract %}
-            <p>{{ paragraph }}</p>
-            {%- endfor %}
-          </div>
-          <div class="col-lg-4">
-            <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/abstractfigures/{{ page.abstractfigure }}" class="img-responsive zoom">
-            {%- if page.figuretext %}
-            <p>
-              <b>Fig. 1</b> {{ page.figuretext }}
-            </p>
-            {%- endif %}
-          </div>
-        </div>
-      {% else %}
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            {%- for paragraph in page.abstract %}
-            <p>{{ paragraph }}</p>
-            {%- endfor %}
-          </div>
-        </div>
-      {%- endif %}
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <ol id="references">
-            {%- for ref in page.references %}
-              <li>
-              <ref-author>{{ ref[0] }}</ref-author>
-              {%- if ref[1] %}, <ref-journal>{{ ref[1] }}</ref-journal> {%- endif %}
-              {%- if ref[2] %} <ref-year>{{ ref[2] }}</ref-year>{%- endif %}
-              {%- if ref[3] %}, <ref-volume>{{ ref[3] }}</ref-volume>{%- endif %}
-              {%- if ref[4] %}, <ref-pages>{{ ref[4] }}</ref-pages>{%- endif %}.
-              </li>
-            {%- endfor %}
-          </ol>
+        <div class="col-lg-8 col-lg-offset-2">
+          {%- for paragraph in page.abstract %}
+            <p>{{ paragraph }}</p>
+          {%- endfor %}
+          {%- if page.abstractfigure %}
           <br><br>
-          <ul style="font-size:16px;">
-            <li><i class="fa-solid fa-user" style="font-size:20px;color:#A4004F;"></i>&nbsp{{ page.speaker }}</li>
+            <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/abstractfigures/{{ page.abstractfigure }}" class="img-responsive">
+            {%- if page.figuretext %}
+              <p>
+                <b>Fig. 1</b> {{ page.figuretext }}
+              </p>
+            {%- endif %}
+          {%- endif %}
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          {%- if page.references %}
+            <ol class='list-inline' style="font-size:16px;">
+            {%- for ref in page.references %}
+                <li> {{ ref[0] }}
+                  {%- if ref[1] %}, <i>{{ ref[1] }}</i> {%- endif %}
+                  {%- if ref[2] %} <b>{{ ref[2] }}</b>{%- endif %}
+                  {%- if ref[3] %}, <i>{{ ref[3] }}</i>{%- endif %}
+                  {%- if ref[4] %}, {{ ref[4] }} {%- endif %}.
+                </li><br>
+            {%- endfor %}
+            </ol>
+          {%- endif %}
+          <br><br>
+          <ul class='list-inline' style="font-size:16px;">
+            <li><i class="fa-solid fa-user" style="font-size:20px;color:#A4004F;"></i>&nbsp{{ page.speaker }}</li><br>
             <li><i class="fa-solid fa-location-dot" style="font-size:20px;color:#A4004F;"></i>&nbsp {{ page.location }}</li>
           </ul>
           <br>
