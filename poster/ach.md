@@ -1,10 +1,8 @@
 ---
-layout: talkpage
+layout: posterpage
 categories: []
-talknumber: '?'
-talktime: '?'
+posternumber: D1.01
 speaker: Maximilian Ach
-img:
 location: ['HITS gGmbH', 'Heidelberg University']
 title: 'Adaptive Quantum Chemistry Basis Sets'
 authors: 'Maximilian L. Ach, Danish Khan, Anatole von Lilienfeld'
@@ -19,6 +17,6 @@ i.e. by minimizing the Hartree-Fock (HF) energy, and form the training data for 
 learning (ML) model. After training on a rather small number of molecules, it is shown that
 using the basis sets predicted by the ML model provides more accurate atomization energies
 than default Pople basis sets in up to 99% of tested HF calculations.'
-abstractfigure: ach.png
+abstractfigure: 'ach.png'
 references:
 ---
