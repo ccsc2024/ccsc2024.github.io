@@ -42,7 +42,7 @@
         {%- if page.abstractfigure %}
         <figure class="">
           <img
-            src="/img/abstractfigures/{{ page.abstractfigure }}"
+            src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/abstractfigures/{{ page.abstractfigure }}"
             class="img-responsive zoom">
           {%- if page.figuretext %}
           <figcaption>
@@ -71,8 +71,7 @@
       <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/speaker/{{ page.img }}" class="img-responsive" alt="{{ page.speaker }}">
       <figcaption>
         <speaker-name>{{ page.speaker }}</speaker-name>
-        
-        {%- for loc in page.location %}
+        {% for loc in page.location %}
         <p>
           <i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;">
           </i>&nbsp;&nbsp;&nbsp;{{ loc }}
