@@ -47,20 +47,20 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           {%- if page.references %}
-            <ol class='list-inline' style="font-size:16px;">
+            <ol style="font-size:16px;">
             {%- for ref in page.references %}
                 <li> {{ ref[0] }}
                   {%- if ref[1] %}, <i>{{ ref[1] }}</i> {%- endif %}
                   {%- if ref[2] %} <b>{{ ref[2] }}</b>{%- endif %}
                   {%- if ref[3] %}, <i>{{ ref[3] }}</i>{%- endif %}
                   {%- if ref[4] %}, {{ ref[4] }} {%- endif %}.
-                </li><br>
+                </li><
             {%- endfor %}
             </ol>
           {%- endif %}
           <br><br>
           <ul class='list-inline' style="font-size:16px;">
-            <li><i class="fa-solid fa-user" style="font-size:20px;color:#A4004F;"></i>&nbsp{{ page.speaker }}</li><br>
+            <li><i class="fa-solid fa-user" style="font-size:20px;color:#A4004F;"></i>&nbsp{{ page.speaker }}</li><br><br>
             <li><i class="fa-solid fa-location-dot" style="font-size:20px;color:#A4004F;"></i>&nbsp {{ page.location }}</li>
           </ul>
           <br>
