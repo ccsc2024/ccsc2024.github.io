@@ -1,13 +1,11 @@
 ---
-layout: talkpage
+layout: posterpage
 categories: []
-talknumber: '?'
-talktime: '?'
-img:
+posternumber: D1.02
 title: 'Matching pure and mixture isotherms using
 invertable neural networks'
 authors: 'Youri Ran'
-speaker: 
+speaker: 'Youri Ran'
 location: 'University of Amsterdam'
 abstract: 'Chemical separations based on heat cost about 20% of the worlds energy.
 Finding ways to separate chemicals at ambient temperatures and pressures is
@@ -28,6 +26,5 @@ pure isotherms and mixture isotherms calculated with RUPTURA. The IAE
 predicts pure and mixture isotherms with high precision in both the Henry and
 high fugacity regime, for up to 6 components and 5-site isotherms. This work
 contributes to inverting the full design pipeline from physical gas separation to
-adsorbate design, enabling property-guided materials discovery.
-1'
+adsorbate design, enabling property-guided materials discovery.'
 ---
