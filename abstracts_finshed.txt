@@ -30,6 +30,9 @@ hartinger       acronym! justification is a bit ugly... nothing we can do?
 hartmann        excess space in gappy references. column-break after first line.
 heezen
 hoermann        TERRIBLE justification. Maybe need to add hyphenation hints? (HOW?)
+von_rudorff	Not centered at all in opera
+Zhao,zavdlav,weinreich   Not centered in opera
+Tkatchenko	Large space on one sentence 
 
 GENERALLY:
 save local copy of font used for icons! Shouldn't rely on 3rd-party.
