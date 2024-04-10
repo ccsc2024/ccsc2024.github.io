@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posterpage
 categories: [poster]
 posternumber: P29
 speaker: Epee Ndongue Jules César
