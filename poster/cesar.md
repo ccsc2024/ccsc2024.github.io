@@ -25,8 +25,6 @@ references: [
         'F. Noe, D. Krachtus, J. C. Smith and S. Fischer',
         'J. Chem. Theory Comput.', 2006, 2, 840-857
     ],[
-        'F. Noe, D. Krachtus, J. C. Smith and S. Fischer',
-        'J. Chem. Theory Comput.', 2006, 2, 840-857
-    ],
+        'P. Imhof', 'Computational Approaches for Studying Enzyme Mechanism Part B', '2006', '578', '11', '249271'],
 ]
 ---
