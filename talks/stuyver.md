@@ -1,13 +1,12 @@
 ---
 layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img: .png
+categories: [comms]
+talknumber: D2.11
+talktime: '22.05.2024, 17:30 – 18:00'
 title: 'Hybrid computational workflows for reaction
 screening & discovery'
 authors: 'Thijs Stuyver, Javier Emilio Alfonso-Ramos'
-speaker: 
+speaker: Thijs Stuyver 
 location: 'Ecole Nationale Supérieure de Chimie de Paris, Université PSL'
 abstract: 'Recent advances in machine learning (ML) and computational chemistry have opened
 the door to the development of hybrid computational workflows for reaction screening
@@ -30,8 +29,7 @@ an excellent success rate of 95% already at xTB level of theory. For tri-/multi-
 pathways – typically not benchmarked when developing new TS search methods, yet
 common in various chemical processes, cf. solvent-, auto- and enzyme catalysis – TS-
 tools retains its abilities, though a DFT treatment becomes essential in many cases.'
-abstractfigure: stuyver.png
-figuretext: 'An overview of a typical workflow associated with machine learning accelerated computational screening.'
+abstractfigure: [{'figure': 'stuyver.png', 'caption': 'An overview of a typical workflow associated with machine learning accelerated computational screening.'}]
 references: [["B. Meyer, et al.", Chem. Sci. ,2018, 9, 7069-7077], 
 ["S. Heinen, G. Falk von Rudorff, O.
 A. Von Lilienfeld", J. Chem. Phys. ,2021, 155, 064105],

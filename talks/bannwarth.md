@@ -1,10 +1,9 @@
 ---
 layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
+categories: [comms]
+talknumber: 'D4.05'
+talktime: '24.05.2024, 12:00 – 12:30'
 speaker: Christoph Bannwarth
-img: bannwarth.png
 location: 'Aachen University'
 title: 'MolBar: A Molecular Identifier for Inorganic and Organic
 Molecules with Full Support of Stereoisomerism'
@@ -26,10 +25,9 @@ The robustness of MolBar is demonstrated through duplication and permutation
 invariance tests on the Molecule3D dataset of 3.9 million molecules. A Python
 implementation is available as open source and is also listed on PyPI for broader
 accessibility. The intended use is for duplicate removal in molecular database as well as unique molecule identification in chemical space exploration.'
-abstractfigure: bannwarth.png
-figuretext: 'Workflow to generate the unique MolBar identifier from Cartesian coordinates as
+abstractfigure: [{'figure': 'bannwarth.png', 'caption': 'Workflow to generate the unique MolBar identifier from Cartesian coordinates as
 input. The final identifier is a concatenation of rounded eigenvalue spectra of different
-matrices describing the topology, as well as relative and absolute configuration.'
+matrices describing the topology, as well as relative and absolute configuration.'}]
 references: [
     [
         'N. van Staalduinen, C. Bannwarth', ChemRxiv, 2024, false, 'DOI 10.26434/chemrxiv-2024-k40v5'

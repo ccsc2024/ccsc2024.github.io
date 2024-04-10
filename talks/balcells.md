@@ -1,10 +1,9 @@
 ---
 layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
+categories: [comms]
+talknumber: 'D2.04'
+talktime: '22.05.2024, 11:30 – 12:00'
 speaker: David Balcells
-img: balcells.png
 location: 'University of Oslo'
 title: 'Generative Machine Learning in the Transition Metal Compound Space'
 authors: 'David Balcells'
@@ -23,8 +22,7 @@ Pareto front, with fine control over both aim and scope; [Fig. 1]. Used together
 tools allowed for the exploration and exploitation of vast chemical spaces containing
 billions of TMCs. If time allows, I will present our current efforts in coupling the
 PL-MOGA to other generative models based on deep graph learning.'
-abstractfigure: balcells.png
-figuretext: 'Pareto front multiobjective optimization with fine control over aim and scope using the PL-MOGA algorithm with the tmQMg-L ligand library[4].'
+abstractfigure: [{'figure': 'balcells.png', 'caption': 'Pareto front multiobjective optimization with fine control over aim and scope using the PL-MOGA algorithm with the tmQMg-L ligand library[4].'}]
 references: [
      ['Friederich, P.; Gomes, G. d. P.; De Bin, R.; Aspuru-Guzik, A.; Balcells, D.',
      'Chem. Sci. 2020', 11, 4584–4601],

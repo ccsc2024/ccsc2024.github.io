@@ -1,8 +1,8 @@
 ---
 layout: talkpage
-categories: [invited]
-talknumber: ''
-talktime: ''
+categories: [comms]
+talknumber: 'D4.07'
+talktime: '24.05.2024, 15:00 – 15:30'
 speaker: Andy S. Anker
 img: 
 location: [
@@ -23,5 +23,5 @@ references: [
         'Digital Discovery', 2023, 1, 69–80
     ]
 ]
-abstractfigure: anker.png
+abstractfigure: [{'figure': 'anker.png', 'caption': ''}]
 ---

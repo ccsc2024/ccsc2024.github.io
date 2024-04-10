@@ -1,10 +1,9 @@
 ---
 layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
+categories: [comms]
+talknumber: D2.08
+talktime: '22.05.2024, 15:30 – 16:00'
 speaker: Lukas Hörmann
-img: hoermann.png
 title: 'Atomic-scale insights into frictional energy dissipation mechanisms'
 authors: 'Lukas Hörmann, Shinjae Nam, Alfred J. Weymouth, Franz J. Gießibl, and Reinhard J. Maurer'
 location: 'University of Warwick, Coventry (UK)'
@@ -23,6 +22,6 @@ abstract: [
     'Finally, we present a mechan&shy;istic inter&shy;preta&shy;tion of our findings that provides insights into the underlying
     physics of atomic/lateral force micro&shy;scopy measurements.'
 ]
-abstractfigure: hoermann.png
-figuretext: 'Schematic of a lateral force microscopy measurement of fric&shy;tional energy dissipation; CO-functionalised tip probes dif&shy;fer&shy;ent local bonding environments.'
+abstractfigure: [{'figure': 'hoermann.png', 'caption': 'Schematic of a lateral force microscopy measurement of fric&shy;tional energy dissipation; CO-functionalised tip probes dif&shy;fer&shy;ent local bonding environments.'}
+]
 ---

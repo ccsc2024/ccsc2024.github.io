@@ -1,12 +1,11 @@
 ---
 layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img: .png
+categories: [comms]
+talknumber: D4.04
+talktime: '24.05.2024, 11:30 – 12:00'
 title: 'Reliable machine learning form sparse data in high dimension with additive kernel based methods'
 authors: 'Sergei Manzhos, Manabu Ihara'
-speaker: 
+speaker: Sergei Manzhos 
 location: 'Tokyo Institute of Technology'
 abstract: 'Machine learning (ML) has become popular for the construction of interatomic potentials, DFT functionals, and to predict materials properties from descriptors of chemical composition and structure. In these applications, the ML problems are typically of regression type (or can be cast as such), and kernel regressions and neural networks (NN) are most widely used types of methods. These methods have high expressive power but require more data than physically motivated approaches and suffer from lack of insight. I high-dimensional (D) settings, sampling is bound to be sparse, and this cannot be helped by adding more data (the ’curse of dimensionality’). NNs suffer from a large and growing with D number of nonlinear parameters, which causes high CPU cost and overfitting. Kernel methods, being effectively linear regressions with nonlinear basis functions, appear then particularly appealing as combining high expressive power and stability [1]. We will demonstrate how in high D and with sparse data, kernel regressions lose their superior expressive power and become equivalent to low-order polynomial fits [2], and the property of locality of commonly used Matern type kernels (which are used for this property) is lost [3]. Finding optimal hyperparameters in this regime also becomes difficult [4]. We will show that these problems can be effectively addressed by using orders of coupling expansions achieved by using additive kernels [5–8]. This approach also helps generate insight while preserving the generality of the methods. Additive kernels also allow obtaining an NN type representation without nonlinear optimization and with optimal neuron activation functions [9,10]. We wills show examples from ML for interatomic potentials, materials informatics [11] and kinetic energy functionals [7,12].'
 references: [["Manzhos, S.; Tsuda, S.; Ihara, M.", Phys. Chem. Chem. Phys. ,2023, 25, 1546–1555],

@@ -1,13 +1,11 @@
 ---
 layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
+categories: [comms]
+talknumber: 'D3.06'
+talktime: '23.05.2024, 12:00 – 12:30'
 speaker: François-Xavier Coudert
-img: coudert.png
 location: 'PSL University, Paris (FR)'
-title: 'Data-based methods to accelerate discovery of
-novel materials and better understand old ones'
+title: 'Data-based methods to accelerate discovery of novel materials and better understand old ones'
 authors: François-Xavier Coudert
 abstract: ['The past few years have seen a rapid increase in the use of machine learning (ML)
 approaches to the fields of chemistry and materials science, in particular in the
