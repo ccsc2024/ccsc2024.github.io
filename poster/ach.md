@@ -1,6 +1,6 @@
 ---
 layout: posterpage
-categories: []
+categories: [poster]
 posternumber: P01
 speaker: Maximilian Ach
 location: ['HITS gGmbH', 'Heidelberg University']
@@ -17,6 +17,13 @@ i.e. by minimizing the Hartree-Fock (HF) energy, and form the training data for 
 learning (ML) model. After training on a rather small number of molecules, it is shown that
 using the basis sets predicted by the ML model provides more accurate atomization energies
 than default Pople basis sets in up to 99% of tested HF calculations.'
-abstractfigure: 'ach.png'
+abstractfigure: [
+  [figure: 'ach1.png', 
+  caption: 'Left: Change in Hartree Fock total energy using basis sets with ML scaling factors as a function training molecules. Right: Atomization energy error vs. CPU time using default and adaptive Pople basis sets.'
+  ]
+  [figure: 'ach2.png',
+  caption: 'Molecules from the QM9 dataset with diverse functional groups and their optimal (HF energy-minimized) STO-3G valence orbital scaling factors. As can be seen the scaling factors are highly local and transferable and depend on the electron density near the atom.'
+  ]
+]
 references:
 ---
