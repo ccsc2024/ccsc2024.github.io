@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [digidemo]
-posternumber: 'D04'
+posternumber: 'DD04'
 title: 'The MQS Platform for High-throughput Screening of Molecules with Quantum Chemistry Models and Machine Learning'
 authors: 'Mark Nicholas Jones, Botond Horvath, Patrik Ando'
 speaker: Mark Nicholas Jones
