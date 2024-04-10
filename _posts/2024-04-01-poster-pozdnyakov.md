@@ -1,0 +1,8 @@
+---
+layout: default
+categories: [decision]
+authors: 'Sergey Pozdnyakov, Michele Ceriotti'
+speaker: Sergey Pozdnyakov
+location: 'Ecole Polytechnique Fédérale de Lausanne'
+link poster/pozdnyakov
+---

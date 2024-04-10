@@ -1,0 +1,8 @@
+---
+layout: default
+categories: [decision]
+authors: 'Štěpán Sršeň, Johannes Dietschreit'
+speaker: Štěpán Sršeň 
+location: 'University of Vienna'
+link: poster/srsen
+---
