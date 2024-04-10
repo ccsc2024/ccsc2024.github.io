@@ -63,19 +63,19 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <hr class="star-primary">
-        </div>
-        <br><br>
-        <div class="col-lg-4 lg-col-offset-2">
-          <p>
-            <i class="fa-solid fa-user" style="font-size:20px;color:#3f0a74;"></i>&nbsp{{ page.speaker }}
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <ul class='list-inline', style="font-size:16px;">
-            {% for loc in page.location %}
-              <li><i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;"></i>&nbsp {{ loc }}</li>
-            {% endfor %}
-          </ul>
+          <br><br>
+          <div class="col-lg-4 lg-col-offset-2">
+            <p>
+              <i class="fa-solid fa-user" style="font-size:20px;color:#3f0a74;"></i>&nbsp{{ page.speaker }}
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <ul class='list-inline', style="font-size:16px;">
+              {% for loc in page.location %}
+                <li><i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;"></i>&nbsp {{ loc }}</li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
