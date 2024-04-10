@@ -17,7 +17,7 @@ layout: page
         <ul>
           {% for abstract in site.categories.decision %}
             {{ abstract.posternumber }}
-            <li><a href="https://ccsc2024.github.io/poster/{{ abstract.link }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
+            <li><a href="https://ccsc2024.github.io/{{ abstract.link }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
               <b>{{ abstract.speaker }}</b>, {{ abstract.location }} </a>
             </li>
           {% endfor %}
