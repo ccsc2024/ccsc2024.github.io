@@ -18,13 +18,11 @@
       <div class="row">
         <div class="col-lg-10 col-lg-offset-2">
           <ul>
-            {% for abstract in site.poster %}
-            {{ abstract.posternumber }}
-              {% if abstract.categories.decision %}
-                <li><a href="https://ccsc2024.github.io/poster/{{ abstract.link }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
-                  <b>{{ abstract.speaker }}</b>, {{ abstract.location }} </a>
-                </li>
-              {% endif %}
+            {% for abstract in site.categories.decision %}
+              {{ abstract.posternumber }}
+              <li><a href="https://ccsc2024.github.io/poster/{{ abstract.link }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
+                <b>{{ abstract.speaker }}</b>, {{ abstract.location }} </a>
+              </li>
             {% endfor %}
           </ul>
         </div>
