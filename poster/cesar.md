@@ -21,7 +21,12 @@ the sampling.'
 abstractfigure: [{'figure': 'cesar1.png', 'caption': 'A) Schematic energy landscape with valleys (blue) with low and mountains (yellow/orange) with high energy, respectively. Yellow points mark end states and green dots are intermediate states. White connections with transition barriers indicate a variety of possible pathways. Figure is taken from ref 2. B) Example of a transition network with nodes (reactant, products and intermediates), weighted edges(paths joining 2 intermediates with the corresponding transition energy).'},
 {'figure': 'cesar2.png', 'caption': 'Left) Crystal structure of Carboxypeptidase A. Right) The corresponding active site.'}]
 references: [
-['F. Noé, D. Krachtus, J. C. Smith, and Stefan Fischer', 'J. Chem. Theory Comput.', '2, 840857', (2006)],
-['F. Noe, D. Krachtus, J. C. Smith, S. Fischer', 'J. Chem. Theory. Comput.', '2, 840-857', (2006)]
+    [
+        'F. Noe, D. Krachtus, J. C. Smith and S. Fischer',
+        'J. Chem. Theory Comput.', 2006, 2, 840-857
+    ],[
+        'F. Noe, D. Krachtus, J. C. Smith and S. Fischer',
+        'J. Chem. Theory Comput.', 2006, 2, 840-857
+    ],
 ]
 ---
