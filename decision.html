@@ -26,9 +26,9 @@ layout: page
     <div class="row">
       <div class="col-lg-10 col-lg-offset-2">
         <ul>
-          {% for item in site.categories.decision %}
-          <li><a href="https://ccsc2024.github.io/poster/{{ item.talklink }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
-            <b>{{ item.title }}</b>, {{ item.affiliation }}</a>
+          {% for item in poster.categories.decision %}
+          <li><a href="https://ccsc2024.github.io/poster/{{ item.link }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
+            <b>{{ item.speaker }}</b>, {{ item.location }} </a>
           </li>
           {% endfor %}
         </ul>
