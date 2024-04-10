@@ -1,0 +1,38 @@
+---
+layout: page
+---
+<section id="poster">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>To be decided</h2>
+        <hr class="star-primary">
+        <br>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<section class="success" id="to be decided">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3>List of Speed Talk Abstracts</h3>
+        <hr class="star-light">
+        <br>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-2">
+        <ul>
+          {% for item in site.categories.decision %}
+          <li><a href="https://ccsc2024.github.io/poster/{{ item.talklink }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
+            <b>{{ item.title }}</b>, {{ item.affiliation }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
