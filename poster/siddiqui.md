@@ -1,12 +1,10 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P23'
 title: 'Enhancing Organic Solar Cell Development: Leveraging Chemical Variational Autoencoders and Self-Prepared Datasets for Inverse Design of Donor-Acceptor Molecules'
 authors: 'Hamza Siddiqui, Tahsin Usmani'
-speaker: 
+speaker: Hamza Siddiqui 
 location: 'Integral University, Lucknow'
 abstract: 'In this study, we introduce a novel inverse design model based on the chemical variational autoencoder (VAE)[1], designed to generate chemical structures (x) of Donors and 
 Acceptors with desired properties (y) derived from quantitative structure–property relationships obtained via rdkit and Mordred descriptors. Our methodology utilizes a self-prepared 

@@ -1,10 +1,8 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
+layout: posterpage
+categories: [poster]
+posternumber: 'P09'
 speaker: Mark Heezen
-img: heezen.png
 location: [
     'Vrije Universiteit Brussel (BE)',
     'Universidad Autónoma de Madrid (ES)'

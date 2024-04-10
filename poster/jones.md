@@ -1,7 +1,7 @@
 ---
 layout: posterpage
-categories: [decision]
-posternumber: '?'
+categories: [poster]
+posternumber: 'P10'
 title: 'Quantum-mechanical exploration of conformers and
 solvent effects in complex molecular systems'
 authors: 'Leonardo Medrano Sandonas, Li Chen, Alessio Fallani, Mirela Puleva, Mathias

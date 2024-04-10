@@ -1,12 +1,10 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P24'
 title: 'Active Learning for Chemical Space Exploration'
 authors: 'Elizaveta Surzhikova, Jonny Proppe'
-speaker: 
+speaker: Elizaveta Surzhikova 
 location: 'Technische Universität Braunschweig'
 abstract: 'Machine learning models have been successfully developed for various applications,
 including different matters in chemistry [1]. While in many cases the performance of
@@ -24,9 +22,8 @@ Numerous different selection strategies are known [3]. Selecting an active learn
 algorithm with superior convergence of model performance for a given dataset
 requires time for research, analysis and implementation. To bypass that obstacle we
 present an extensive benchmark of active learning algorithms.'
-abstractfigure: surzhikova.png
-figuretext: 'Performance comparison of active learning (uncertainty sampling method) and
-passive learning (random sampling method) on the Himmelblau function space.'
+abstractfigure: [{'figure': 'surzhikova.png', 'caption': 'Performance comparison of active learning (uncertainty sampling method) and
+passive learning (random sampling method) on the Himmelblau function space.'}]
 references: [["J. A. Keith, V. Vassilev-Galindo, B. Cheng, S. Chmiela, M. Gastegger, K.-R. Müller and A.
 Tkatchenko", Chemical Reviews ,2021, 121, 9719-10240],
 ["B. Settles", Active Learning ,2012. 1-20],

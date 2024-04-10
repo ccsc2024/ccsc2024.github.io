@@ -1,9 +1,7 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P27'
 title: 'Computational Approaches to Antibiotics Discovery'
 authors: 'Wojtek Treyde, Alistair Farley, Christopher J. Schofield, Fernanda Duarte'
 location: 'University of Oxford'

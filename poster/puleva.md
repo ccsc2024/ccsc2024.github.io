@@ -1,13 +1,11 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P18'
 title: 'Accurate quantum-mechanical dataset for enhancing drug-protein interaction predictions'
 authors: 'Mirela Puleva, Leonardo Medrano Sandonas, Balázs Lőrincz, Jorge Alfonso
 Charry Martinez, David M. Rogers, Péter R. Nagy, Alexandre Tkatchenko'
-speaker: 
+speaker: Mirela Puleva 
 location: 'University of Luxembourg'
 abstract: 'The importance and ubiquity of non-covalent interactions in large organic complexes coupled
 with their long-range nature account for the challenge they pose to quantum-mechanical

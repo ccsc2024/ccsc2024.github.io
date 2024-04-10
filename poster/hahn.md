@@ -1,10 +1,8 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
+layout: posterpage
+categories: [poster]
+posternumber: 'P06'
 speaker: Eduard Hahn
-img: hahn.png
 location: 'University of Hamburg (DE)'
 title: 'Machine Learning Exchange Spin Coupling -
 Building problem-tailored Descriptors'

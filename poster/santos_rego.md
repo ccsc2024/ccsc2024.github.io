@@ -1,12 +1,10 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P21'
 title: 'ML-Exploration of Adsorption Energies on Minerals Surfaces for Geological Carbon Storage Applications'
 authors: 'Jessica Santos Rego, Caetano Rodrigues Miranda'
-speaker: 
+speaker: Jessica Santos Rego 
 location: 'Universidade de São Paulo'
 abstract: 'Geological carbon storage is emerging as an alternative technology capable of mitigating the impact caused by the emission of greenhouse gasses (GHG),  
 among them carbon dioxide CO2. The trapping mechanisms that keep the gas in the subsurface rock are categorized into different processes. The adsorption process 

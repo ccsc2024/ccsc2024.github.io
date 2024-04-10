@@ -1,10 +1,8 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
+layout: posterpage
+categories: [poster]
+posternumber: P04
 speaker: Yuri Cho
-img: cho.png
 location: 'École Polytechnique Fédérale de Lausanne (EPFL), Lausanne (CH)'
 title: 'Automated Prediction of Ground State Spin for Transition Metal Complexes
 and Benchmarking Physics-based Representations'
@@ -26,8 +24,7 @@ structure without additional computations, thus enabling the automated use of cr
 data for large-scale computations. Moreover, we utilize our diverse dataset to benchmark the
 performance of various physics-based representations [2] in predicting the molecular properties of
 transition metal complexes.'
-abstractfigure: cho.png
-figuretext: 'General workflow of predicting ground state spin of transition metal complexes.'
+abstractfigure: [{'figure': 'cho.png', 'caption': 'General workflow of predicting ground state spin of transition metal complexes.'}]
 references: [
     ['Vela, S., Laplaza, R., Cho, Y., Corminboeuf, C.',
     'npj Comput. Mater.', 2022, 8, 188],

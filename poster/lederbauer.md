@@ -1,12 +1,10 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P13'
 title: 'Decoding Solid-State NMR Descriptors Using Machine Learning: A Transition Metal Dataset'
 authors: 'Magdalena Lederbauer, Zachariah J. Berkson, Merlin Seidel, Yuya Kakiuchi, Jérémy Roudin, Kjell Jorner, Christophe Copéret'
-speaker:
+speaker: Magdalena Lederbauer
 location: 'Department of Chemistry and Applied Biosciences, ETH Zurich'
 abstract: 'Fundamental understanding of structure-reactivity relationships in catalysis requires advanced spectroscopy, like solid-state NMR, where chemical shift tensors (CSTs) 
 provide insight into local chemical environments and electronic structures.[1] Current methods rely on advanced computational orbital analysis to connect experimentally accessible 

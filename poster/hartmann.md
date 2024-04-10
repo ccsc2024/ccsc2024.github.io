@@ -1,10 +1,8 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
+layout: posterpage
+categories: [poster]
+posternumber: 'P08'
 speaker: Eric Hartmann
-img: hartmann.png
 location: [
     HITS gGmbH (DE),
     Heidelberg University (DE)

@@ -1,10 +1,8 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
+layout: posterpage
+categories: [poster]
+posternumber: 'P07'
 speaker: Martina Hartinger
-img: hartinger.png
 location: 'FAU Erlangen-Nürnberg (DE)'
 title: 'The Alchemy of Light: Computational Investigation of Photoswitches and Photomotors'
 authors: 'Martina Hartinger, Theodor Röhrkasten, Carolin Müller'

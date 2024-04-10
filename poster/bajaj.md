@@ -1,10 +1,8 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
+layout: posterpage
+categories: [poster]
+posternumber: P03
 speaker: Ashima Bajaj
-img: bajaj.png
 location: 'Vrije Universiteit Brussel'
 title: 'On the Performance of Maximum Hardness Principle: Validation and Guiding Rules'
 authors: 'Ashima Bajaj, Farnaz Heidar-Zadeh, Thijs Stuyver, Paul W. Ayers,  and 

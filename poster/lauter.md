@@ -1,12 +1,10 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P12'
 title: 'Covalent Organic Frameworks for Drug Delivery'
 authors: 'Gregor J. Lauter, Alessandro Calzolari, Ganna Gryn’ova'
-speaker: 
+speaker: Gregor J. Lauter 
 location: 'University of Birmingham'
 abstract: 'Covalent organic frameworks (COFs) are highly ordered porous two- or three-dimensional
 polymers consisting of regularly connected nodes and linkers and characterised with diverse
@@ -24,8 +22,7 @@ interactions (NCIs) between the host COFs and the guest molecules, we are also d
 dedicated NCI descriptors and structural fingerprints. Overall, these tools will allow not only
 the design of novel materials but also the rapid pre-assessment of their efficacy in applications
 related to the sequestration of small molecules.'
-abstractfigure: lauter.png
-figuretext: 'Schematic workflow for the generation of NCI descriptors and structural fingerprints.'
+abstractfigure: [{'figure': 'lauter.png', 'caption': 'Schematic workflow for the generation of NCI descriptors and structural fingerprints.'}]
 references: [["Côté, Benin, Ockwig, O’Keeffe, Matzger, Yaghi", Science ,2005, 310, 1166],
 ["Huang, Wang, Jiang", Nature Rev. Mater. ,2016, 1, 16068],   
 ]

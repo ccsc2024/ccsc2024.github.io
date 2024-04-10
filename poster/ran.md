@@ -1,7 +1,7 @@
 ---
 layout: posterpage
-categories: []
-posternumber: D1.02
+categories: [poster]
+posternumber: 'P19'
 title: 'Matching pure and mixture isotherms using
 invertable neural networks'
 authors: 'Youri Ran'

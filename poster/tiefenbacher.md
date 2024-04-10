@@ -1,12 +1,10 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P26'
 title: 'Excited state ML/MM dynamics with electrostatic embedding'
 authors: 'Maximilian Xaver Tiefenbacher, Brigitta Bachmair, Sebastian Mai, Johannes Dietschreit, Julia Westermayr'
-speaker: 
+speaker: Maximilian X. Tiefenbacher 
 location: 'University of Vienna'
 abstract: 'Quantum mechanics/molecular mechanics (QM/MM) simulations have become a
 well-established approach for treating large systems by partitioning them into a region of chemical interest described with a QM-level of theory while the significantly cheaper MM is used for the rest of the system. 

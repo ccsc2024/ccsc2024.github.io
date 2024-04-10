@@ -1,12 +1,10 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P28'
 title: 'Navigating Chemical Space: An Active Learning Strategy Using Multi-Level Coarse-Graining'
 authors: 'Luis Walter and Tristan Bereau'
-speaker: 
+speaker: Luis Walter 
 location: 'Heidelberg University'
 abstract: 'The chemical compound space is vast and therefore challenging to explore. To navigate this space, conventional methods directly screen extensive compound libraries. 
 However, the size of the library or the resources available for screening limit this strategy. We explore a different approach to chemical space exploration using a multi-level coarse-graining method. 

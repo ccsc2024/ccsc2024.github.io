@@ -1,10 +1,8 @@
 ---
-layout: talkpage
+layout: posterpage
 categories: [poster]
-talknumber: '?'
-talktime: '?'
+posternumber: 'P05'
 speaker: Alexandre Giguère
-img: giguere.png
 location: ['Collège Militaire Royal de Saint-Jean, Saint-Jean-sur-Richelieu, Québec (Canada)', 'SandboxAQ, Palo Alto, California (US)']
 title: 'Machine learning applied to molecular electronic devices discovery'
 authors: 'Alexandre Giguère, Rodrigo Bogossian Wang'

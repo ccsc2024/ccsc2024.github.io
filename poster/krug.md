@@ -1,13 +1,11 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P11'
 title: 'The Alchemical Integral Transform and its
 applications'
 authors: 'Simon León Krug, O. Anatole von Lilienfeld'
-speaker:
+speaker: Simon L. Krug
 location: 'Technische Universität Berlin'
 abstract: 'Within computational quantum alchemy, observables of one system B, such as the
 energy EB or electron density ρB can be obtained by perturbing the external potential

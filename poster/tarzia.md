@@ -1,12 +1,10 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img: .png
+layout: posterpage
+categories: [poster]
+posternumber: 'P25'
 title: 'Exploring the design space of metal-organic cages'
 authors: 'Andrew Tarzia, Emma H. Wolpert, Kim E. Jelfs, Giovanni M. Pavan'
-speaker: 
+speaker: Andrew Tarzia 
 location: 'Politecnico di Torino'
 abstract: 'Cages are macrocyclic structures with an intrinsic internal cavity that support
 applications in separations, sensing and catalysis. These materials can be
@@ -28,10 +26,8 @@ building block coordination number and flexibility on the stability of cage topo
 This leads to a large-scale and systematic exploration of design principles,
 generating data that we expect could be analysed through expandable approaches
 towards the rational design of self-assembled porous architectures.'
-abstractfigure: tarzia.png
-figuretext: 'Schematic of the inputs and outputs of the minimal cage model, from building blocks (defined by
-changing a few geometrical measures) and cage topologies, to cage structures (defined by strain energy) and
-maps of the building block parameters and their stability.'
+abstractfigure: [{'figure': 'tarzia.png', 'caption': 'Schematic of the inputs and outputs of the minimal cage model, from building blocks (defined by changing a few geometrical measures) and cage topologies, to cage structures (defined by strain energy) and
+maps of the building block parameters and their stability.'}]
 references: [["R.-J. Li, A. Marcus, F. Fadaei-Tirani, K. Severin", Chem. Comm., 2021, 57, 10023-10026],
 ["A. Tarzia, E. H. Wolpert, K. E. Jelfs, G. M. Pavan.", Chem. Sci., 2023, 14, 12506-12517]
     

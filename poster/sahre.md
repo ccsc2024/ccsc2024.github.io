@@ -1,13 +1,11 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img:
+layout: posterpage
+categories: [poster]
+posternumber: 'P20'
 title: 'Transferability of atomic energies from alchemical
 decomposition'
 authors: 'Michael J. Sahre, Guido F. von Rudorff, Philipp Marquetand, O. Anatole von Lilienfeld'
-speaker: 
+speaker: Michael J. Sahre 
 location: 'University of Vienna'
 abstract: 'We study alchemical atomic energy partitioning as a method to estimate atomization
 energies from atomic contributions which are defined in physically rigorous and

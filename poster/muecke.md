@@ -1,12 +1,10 @@
 ---
-layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img: 
+layout: posterpage
+categories: [poster]
+posternumber: 'P16'
 title: 'Guessing coordinates for pathway guessing'
 authors: 'Maike Mücke, Ricardo A. Mata'
-speaker: 
+speaker: Maike Mücke 
 location: 'Georg-August University Goettingen'
 abstract: 'The exploration of reaction pathways lies at the heart of understanding chemical processes,
 with applications ranging from catalysis to drug design. A reaction path in its fundamental
