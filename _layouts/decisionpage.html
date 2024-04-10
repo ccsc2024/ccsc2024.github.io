@@ -5,7 +5,6 @@
 <body id="page-top" class="index">
   
   {% include nav.html %}
-  
   <section id="to be decided">
     <div class="container">
       <div class="row">
@@ -19,10 +18,13 @@
       <div class="row">
         <div class="col-lg-10 col-lg-offset-2">
           <ul>
-            {% for item in site.categories.decision %}
-              <li><a href="https://ccsc2024.github.io/poster/{{ item.link }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
-                <b>{{ item.speaker }}</b>, {{ item.location }} </a>
-              </li>
+            {% for abstract in site.poster %}
+            {{ abstract.posternumber }}
+              {% if abstract.categories.decision %}
+                <li><a href="https://ccsc2024.github.io/poster/{{ abstract.link }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
+                  <b>{{ abstract.speaker }}</b>, {{ abstract.location }} </a>
+                </li>
+              {% endif %}
             {% endfor %}
           </ul>
         </div>
