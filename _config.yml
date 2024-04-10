@@ -67,14 +67,6 @@ credits: <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io
 markdown: kramdown
 permalink: pretty
 
-collections:
-  poster:
-    output: true
-    source: poster
-  talks:
-    output: true
-    source: talks
-
 #for posts
 defaults:
   - scope:
