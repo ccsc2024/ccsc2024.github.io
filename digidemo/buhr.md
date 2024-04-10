@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [digidemo]
-posternumber: 'D03'
+posternumber: 'DD03'
 speaker: Jannik Buhr
 location: ['HITS gGmbH', 'Heidelberg University']
 title: 'KIMMDY &mdash; Kinetic Monte Carlo Molecular Dynamics'
