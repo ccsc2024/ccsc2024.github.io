@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [poster]
-posternumber: 'P29'
+posternumber: 'P28'
 title: 'Deep Learning Functionals based on Møller-Plesset Adiabatic Connection for Non-Covalent Interactions'
 authors: 'Heng Zhao, Kim J. Daas, Elias Polak, Eduardo Fabiano, Stefan Vuckovic'
 speaker: Heng Zhao 
