@@ -74,8 +74,8 @@ layout: page
         <div class="col-lg-10 col-lg-offset-2">
           <ul>
           {% for it in site.categories.comms %}
-            <li><a href="https://ccsc2024.github.io/talks/{{ it.talklink }}" target="_blank" style="font-size:20px;color:#ffffff;">
-              <b>{{ it.title }}</b>, {{ it.affiliation }}</a>
+            <li><a href="https://ccsc2024.github.io/talks/{{ it.link }}" target="_blank" style="font-size:20px;color:#ffffff;">
+              <b>{{ it.speaker }}</b>, {{ it.location }}</a>
             </li>
           {% endfor %}
           </ul>
@@ -98,8 +98,8 @@ layout: page
         <div class="col-lg-10 col-lg-offset-2">
           <ul>
           {% for ct in site.categories.speedtalk %}
-            <li><a href="https://ccsc2024.github.io/talks/{{ ct.talklink }}" target="_blank" style="font-size:20px;color:##5d308a;">
-              <b>{{ ct.title }}</b>, {{ ct.affiliation }}</a>
+            <li><a href="https://ccsc2024.github.io/talks/{{ ct.link }}" target="_blank" style="font-size:20px;color:##5d308a;">
+              <b>{{ ct.speaker }}</b>, {{ ct.location }}</a>
             </li>
           {% endfor %}
           </ul>
