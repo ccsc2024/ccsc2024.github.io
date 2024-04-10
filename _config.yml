@@ -70,8 +70,10 @@ permalink: pretty
 collections:
   poster:
     output: true
+    source: poster
   talks:
     output: true
+    source: talks
 
 #for posts
 defaults:
