@@ -31,10 +31,10 @@
             <p>{{ paragraph }}</p>
           {%- endfor %}
           {%- if page.abstractfigure %}
-            {% for item in page.abstractfigure %}
+            {% for index, item in enumerate(page.abstractfigure) %}
               <br>
               <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/abstractfigures/{{ item.figure }}" class="img-responsive">
-              <p><b>Fig. 1</b> {{ item.caption }}
+              <p><b>Figure {{ index + 1 }}.</b> {{ item.caption }}
             {%- endfor %}
           {%- endif %}
         </div>
