@@ -19,8 +19,8 @@ encryption enables processing of confidential chemical data (see Fig.1) while
 keeping the data encrypted. [2] This technology may pave the way for synergetic
 data-driven collaborations between companies in molecular discovery. We have
 published a software-as-a-service demo for predictions of pharmacokinetic
-properties of confidential molecules - click [vaultchem.com/demo] to try!'
-abstractfigure: gure': 'weinreich_digital_demo.png', 'caption': 'Software-as-a-service applications face confidentiality issues: once data is encrypted on a local device it needs to be decrypted for processing. Our demo enables ML predictions while keeping the molecular input data encrypted during processing.'}]
+properties of confidential molecules - click <a href=vaultchem.com/demo>vaultchem.com/demo</a> to try!'
+abstractfigure: [{'figure': 'weinreich_digital_demo.png', 'caption': 'Software-as-a-service applications face confidentiality issues: once data is encrypted on a local device it needs to be decrypted for processing. Our demo enables ML predictions while keeping the molecular input data encrypted during processing.'}]
 references: [
 [ "Musil, F., Grisafi, A., Bartók, A. P., Ortner, C., Csányi, G., & Ceriotti", M. (2021)
 Physics-Inspired Structural Representations for Molecules and Materials. Chemical
