@@ -26,15 +26,18 @@ layout: page
         <hr class="star-light">
         <br>
       </div>
-      <div class="col-lg-10 col-lg-offset-2">
-        <ul>
-          {% for abstract in site.categories.poster %}
-            <li><a href="https://ccsc2024.github.io/{{ abstract.link }}" target="_blank" style="font-size:20px;color:#ffffff;">
-              <b>{{ abstract.speaker }}</b>, {{ abstract.location }} </a>
-            </li><br>
-          {% endfor %}
-        </ul>
-      </div>
+    </div>
+    <div class='row'>
+      {% for abstract in site.categories.poster %}
+        <div class="col-lg-2 col-lg-offset-2">
+          <p>{{ abstract.posternumber }}</p>
+        </div>
+        <div class="col-lg-6">
+          <p><a href="https://ccsc2024.github.io/{{ abstract.link }}" target="_blank" style="font-size:20px;color:#ffffff;">
+                <b>{{ abstract.speaker }}</b>, {{ abstract.location }}</a>
+          </p>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -47,15 +50,18 @@ layout: page
         <hr class="star-primary">
         <br>
       </div>
-      <div class="col-lg-10 col-lg-offset-2">
-        <ul>
-          {% for demo in site.categories.digidemo %}
-            <li><a href="https://ccsc2024.github.io/{{ demo.link }}" target="_blank" style="font-size:20px;color:#3f0a74;">
-              <b>{{ demo.speaker }}</b>, {{ demo.location }} </a>
-            </li><br>
-          {% endfor %}
-        </ul>
-      </div>
+    </div>
+    <div class='row'>
+      {% for demo in site.categories.digidemo %}
+        <div class="col-lg-2 col-lg-offset-2">
+            <p>{{ demo.demonumber }}</p>
+          </div>
+          <div class="col-lg-6">
+            <p><a href="https://ccsc2024.github.io/{{ abstract.link }}" target="_blank" style="font-size:20px;color:#3f0a74;">
+                  <b>{{ demo.speaker }}</b>, {{ demo.location }}</a>
+            </p>
+          </div>
+      {% endfor %}
     </div>
   </div>
 </section>
