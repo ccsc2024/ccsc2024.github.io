@@ -7,80 +7,87 @@
 <body id="page-top" class="index">
   
   {% include nav.html %}
-  <main id="talk" class="container">
-    <!-- <div class="container"> -->
-    <hgroup class="row text-center">
+  <section id="poster">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <br><br>
+          <h3>Talk #{{ page.talknumber }}</h3>
+          <h4> {{ page.talktime }} </h4>
+          <br>
+          <hr class="star-primary">
+          <br><br>
+        </div>
+      </div>
+      <!-- abstract -->
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h4>{{ page.title }}</h4>
+            <p class="authors">
+              {{ page.authors | replace: "[", "<sup>" | replace: "]", "</sup>" }}
+            </p>
+        </div>
+      </div>
       <br><br>
-      <h3>Talk #{{ page.talknumber }}</h3>
-      <h4> {{ page.talktime }} </h4>
-      <br>
-      <hr class="star-primary">
-      <br><br>
-    </hgroup>
-
-    {%- assign wordcount = page.abstract | join: " " | split: " " | size %}
-    {%- if wordcount < 150 or page.abstractfigure %}
-    {%- assign textclass = "" %}
-    {% else %}
-    {%- assign textclass = "twocolumn" %}
-    {%- endif %}
-    <article id="talk-content">
-
-      <hgroup>
-        <talk-title >{{ page.title }}</talk-title>
-        <p class="authors">
-          {{ page.authors | replace: "[", "<sup>" | replace: "]", "</sup>" }}
-        </p>
-      </hgroup>
-
-      <abstract-content id="abstract" lang="en">
-        <abstract-text class="{{textclass}}">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
           {%- for paragraph in page.abstract %}
-          <p>{{ paragraph }}</p>
+            <p>{{ paragraph }}</p>
           {%- endfor %}
-        </abstract-text>
-        {%- if page.abstractfigure %}
-        <figure class="">
-          <img
-            src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/abstractfigures/{{ page.abstractfigure }}"
-            class="img-responsive zoom">
-          {%- if page.figuretext %}
-          <figcaption>
-            <b>Fig. 1</b> {{ page.figuretext }}
-          </figcaption>
+          {%- if page.abstractfigure %}
+          {% assign counter = 1 %}
+            {% for item in page.abstractfigure %}
+              <br>
+              <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/abstractfigures/{{ item.figure }}" class="img-responsive">
+              <p><b>Figure {{ counter }}.</b> {{ item.caption }}
+              <br>
+              {% assign counter = counter | plus: 1 %}
+            {%- endfor %}
           {%- endif %}
-        </figure>
-        {%- endif %}
-      </abstract-content>
-        
-      <ol id="references">
-        {%- for ref in page.references %}
-        <li>
-          <ref-author>{{ ref[0] }}</ref-author>
-          {%- if ref[1] %}, <ref-journal>{{ ref[1] }}</ref-journal> {%- endif %}
-          {%- if ref[2] %} <ref-year>{{ ref[2] }}</ref-year>{%- endif %}
-          {%- if ref[3] %}, <ref-volume>{{ ref[3] }}</ref-volume>{%- endif %}
-          {%- if ref[4] %}, <ref-pages>{{ ref[4] }}</ref-pages>{%- endif %}.
-        </li>
-        {%- endfor %}
-      </ol>
-
-    </article>
-
-    <figure id="speaker">
-      <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/speaker/{{ page.img }}" class="img-responsive" alt="{{ page.speaker }}">
-      <figcaption>
-        <speaker-name>{{ page.speaker }}</speaker-name>
-        {% for loc in page.location %}
-        <p>
-          <i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;">
-          </i>&nbsp;&nbsp;&nbsp;{{ loc }}
-        </p>
-        {% endfor %}
-      </figcaption>
-    </figure>
-
-  </main>
+        </div>
+      </div>
+      {%- if page.references %}
+      <br>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <ol style="font-size:16px;">
+            {%- for ref in page.references %}
+                <li> {{ ref[0] }}
+                  {%- if ref[1] %}, <i>{{ ref[1] }}</i> {%- endif %}
+                  {%- if ref[2] %} <b>{{ ref[2] }}</b>{%- endif %}
+                  {%- if ref[3] %}, <i>{{ ref[3] }}</i>{%- endif %}
+                  {%- if ref[4] %}, {{ ref[4] }} {%- endif %}.
+                </li>
+            {%- endfor %}
+            </ol>
+        </div>
+      </div>
+      {%- endif %}
+      <br><br>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <hr class="star-primary">
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-2">
+          <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/speaker/{{ page.img }}" class="img-responsive" alt="{{ page.speaker }}">
+        </div>
+        <div class="col-lg-5">
+          <p>
+            <i class="fa-solid fa-user" style="font-size:20px;color:#3f0a74;"></i>&nbsp{{ page.speaker }}
+          </p>
+          <br>
+          <ul class='list-inline', style="font-size:20px;">
+            {% for loc in page.location %}
+              <li><i class="fa-solid fa-location-dot" style="font-size:20px;color:#3f0a74;"></i>&nbsp {{ loc }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   
   {% include footer.html %}
   {% include js.html %}
