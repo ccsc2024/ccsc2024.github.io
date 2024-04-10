@@ -1,51 +1,62 @@
 ---
 layout: page
 ---
-<section id="poster">
+
+<section id="header">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>List of Posters</h2>
+        <h2>Poster Session</h2>
         <hr class="star-primary">
         <br>
+        <p>
+          The Poster Session will take place over two evenings: May 21st from 6:30 to 8:00 pm and May 22nd from 7:00 to 9:00 pm. 
+          Both session will feature presentations of both posters and digital demonstrations, which are detailed below.
+        </p>
       </div>
     </div>
   </div>
 </section>
-<br>
-<section class="success" id="poster 1">
+
+<section class='success' id="posters">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Poster Session I</h2>
+        <h3>Posters</h3>
         <hr class="star-light">
         <br>
       </div>
-      <br>
-      <div class="col-lg-8 col-lg-offset-2">
-        <ul style="font-size:22px;color:#FFFFFF;">
-          <li><a href="https://ccsc2024.github.io/poster/westermayr/" target="_blank"> P1.01 Amazing Title </a></li>
+      <div class="col-lg-10 col-lg-offset-2">
+        <ul>
+          {% for abstract in site.categories.poster %}
+            <li><a href="https://ccsc2024.github.io/{{ abstract.link }}" target="_blank" style="font-size:20px;color:#ffffff;">
+              <b>{{ abstract.speaker }}</b>, {{ abstract.location }} </a>
+            </li><br>
+          {% endfor %}
         </ul>
       </div>
-    </div>  
+    </div>
   </div>
 </section>
-<br>
-<section id="poster 1">
+
+<section id="digi-demos">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Poster Session II</h2>
+        <h3>Digital Demonstrations</h3>
         <hr class="star-primary">
         <br>
       </div>
-      <br>
-      <div class="col-lg-8 col-lg-offset-2">
-        <ul style="font-size:22px;color:#A4004F;">
-          <li><a href="" target="_blank"> P2.01 Amazing Title Again </a></li>
+      <div class="col-lg-10 col-lg-offset-2">
+        <ul>
+          {% for demo in site.categories.digidemo %}
+            <li><a href="https://ccsc2024.github.io/{{ demo.link }}" target="_blank" style="font-size:20px;color:#3f0a74;">
+              <b>{{ demo.speaker }}</b>, {{ demo.location }} </a>
+            </li><br>
+          {% endfor %}
         </ul>
       </div>
-    </div>  
+    </div>
   </div>
 </section>
 
