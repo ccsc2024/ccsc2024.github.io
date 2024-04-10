@@ -31,10 +31,12 @@
             <p>{{ paragraph }}</p>
           {%- endfor %}
           {%- if page.abstractfigure %}
+          {% assign counter = 1 %}
             {% for item in page.abstractfigure %}
               <br>
               <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/abstractfigures/{{ item.figure }}" class="img-responsive">
-              <p><b>Figure {{ loop.index }}.</b> {{ item.caption }}
+              <p><b>Figure {{ counter }}.</b> {{ item.caption }}
+              {% assign counter = counter | plus: 1 %}
             {%- endfor %}
           {%- endif %}
         </div>
