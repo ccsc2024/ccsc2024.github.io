@@ -31,13 +31,11 @@
             <p>{{ paragraph }}</p>
           {%- endfor %}
           {%- if page.abstractfigure %}
-          <br><br>
-            <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/abstractfigures/{{ page.abstractfigure }}" class="img-responsive">
-            {%- if page.figuretext %}
-              <p>
-                <b>Fig. 1</b> {{ page.figuretext }}
-              </p>
-            {%- endif %}
+            {% for item in page.abstractfigure %}
+              <br>
+              <img src="https://raw.githubusercontent.com/ccsc2024/ccsc2024.github.io/main/img/abstractfigures/{{ item.figure }}" class="img-responsive">
+              <p><b>Fig. 1</b> {{ item.caption }}
+            {%- endfor %}
           {%- endif %}
         </div>
       </div>
