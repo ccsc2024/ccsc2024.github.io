@@ -1,13 +1,13 @@
 ---
 layout: talkpage
-categories: []
-talknumber: '?'
-talktime: '?'
-img: .png
+categories: [keynote]
+talknumber: 'D1.02'
+talktime: '21.05.2024, 11:00 – 11:45'
+img: 'heather_kulik.png'
 title: 'Machine Learning for Open Shell Transition Metal
 Complex and Metal-Organic Framework Discovery'
 authors: 'Heather J. Kulik'
-speaker: 
+speaker: 'Heather J. Kulik'
 location: 'Massachusetts
 Institute of Technology'
 abstract: 'I will discuss our efforts to use machine learning (ML) to accelerate the computational tailoring
@@ -49,7 +49,6 @@ American Chemical Society ,2023, 145, 14365–14378],
 ["A. Nandy, et al.", Matter ,2023, 6, 1585-1603],
 ["A. Nandy, et al.", ACS Catalysis ,2019, 9, 8243-8255],
 ["A. Nandy, C. Duan, C. Goffinet, and H. J. Kulik", JACS Au 2022, 2, 1200-1213],
-["A. Nandy and H. J. Kulik", ACS Catalysis ,2020, 10, 15033-15047]
-    
+["A. Nandy and H. J. Kulik", ACS Catalysis ,2020, 10, 15033-15047],
 ]
 ---
