@@ -8,9 +8,7 @@ img: pavlo_dral.png
 location: Xiamen University (CN)
 title: 'AI simulations in chemical compound space'
 abstract: 'I will present our methods and software tools for speeding up simulations in chemical compound space with AI and demonstrate their applications. The methods include the general-purpose, artificial intelligence-enhanced quantum mechanical method 1 (AIQM1),[1] which for many properties approaches the accuracy of golden-standard, traditional CCSD(T)/CBS approach while being orders of magnitude faster than DFT. This method can be applied for different compounds without retraining. We applied it to calculate enthalpies of formation[2] and reaction[1] with chemical accuracy as well as to perform accurate molecular dynamics and IR spectra simulations.[3] We also used AIQM1 to elucidate the ground- and excited-state properties of large polyparaphenylene nanolassos.[4] AIQM1 along with many other methods such as a host of ML interatomic potentials are implemented in our MLatom program package and Python library for user-friendly atomistic machine learning simulations which can be run online using our MLatom@XACS cloud-based service.[5]'
-abstractfigure: dral.png
-figuretext: 'AIQM1 is both faster and more accurate than DFT for large molecules.
-Adapted from Ref. [5].'
+abstractfigure: [{'figure': 'dral.png', 'caption': 'AIQM1 is both faster and more accurate than DFT for large molecules. Adapted from Ref. [5].'}]
 references: [
     [
         'P. Zheng, R. Zubatyuk, W. Wu, O. Isayev, P. O. Dral',
