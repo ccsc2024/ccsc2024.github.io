@@ -1,13 +1,11 @@
 ---
 layout: posterpage
-categories: []
+categories: [poster]
 posternumber: P02
 speaker: Kenneth Atz
 location: 'ETH Zurich'
-title: 'Machine learning C-H activation reactions for efficient
-exploration of drug-relevant chemical space'
-authors: 'Kenneth Atz, David F. Nippa, Alex T. Müller, Uwe Grether, Rainer E. Martin  &
-Gisbert Schneider'
+title: 'Machine learning C-H activation reactions for efficient exploration of drug-relevant chemical space'
+authors: 'Kenneth Atz, David F. Nippa, Alex T. Müller, Uwe Grether, Rainer E. Martin & Gisbert Schneider'
 abstract: 'The synthesis of novel chemical matter remains a crucial challenge in small molecule drug
 discovery, often being the critical bottleneck impacting time and cost. Especially C-H activation
 reactions on late-stage lead molecules often require high throughput experimentation (HTE)
@@ -20,10 +18,9 @@ regioselectivity and quantify the impact of electronic information on predictive
 1). Moreover, we show how trained GTNNs enable efficient in silico library screening to identify
 suitable substrates. [5] The identification of synthesizable chemical matter with desired
 properties enables fast exploration of drug-relevant chemical compound space.'
-abstractfigure: atz.png
-figuretext: '<i>Left</i>: Prospective application of regioselectivity prediction models to the drug
-nevirapine. <i>Right</i>: Performance of the investigated atomistic GNNs including 2D (blue) and
-3D (orange) information.'
+abstractfigure: [
+{'figure': 'atz.png', 'caption': '<i>Left</i>: Prospective application of regioselectivity prediction models to the drug nevirapine. <i>Right</i>: Performance of the investigated atomistic GNNs including 2D (blue) and 3D (orange) information.'}
+]
 references: [
     [
         'D. C. Blakemore, et. al.',
