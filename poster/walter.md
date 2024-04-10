@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [poster]
-posternumber: 'P28'
+posternumber: 'P27'
 title: 'Navigating Chemical Space: An Active Learning Strategy Using Multi-Level Coarse-Graining'
 authors: 'Luis Walter and Tristan Bereau'
 speaker: Luis Walter 
