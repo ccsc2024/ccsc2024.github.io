@@ -4,7 +4,7 @@ link: talks/balcells
 categories: [comms]
 talknumber: 'D2.04'
 talktime: '22.05.2024, 11:30 – 12:00'
-speaker: David Balcells
+speaker: Prof. David Balcells
 location: 'University of Oslo'
 title: 'Generative Machine Learning in the Transition Metal Compound Space'
 authors: 'David Balcells'
