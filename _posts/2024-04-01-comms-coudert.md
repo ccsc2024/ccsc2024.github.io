@@ -4,7 +4,7 @@ link: talks/coudert
 categories: [comms]
 talknumber: 'D3.06'
 talktime: '23.05.2024, 12:00 – 12:30'
-speaker: François-Xavier Coudert
+speaker: Prof. François-Xavier Coudert
 location: 'PSL University, Paris (FR)'
 title: 'Data-based methods to accelerate discovery of novel materials and better understand old ones'
 authors: François-Xavier Coudert
