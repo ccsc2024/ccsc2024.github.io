@@ -6,7 +6,7 @@ talknumber: D2.10
 talktime: '22.05.2024, 17:00 – 17:30'
 title: 'Spicy – A Functional Computational Framework for Multilayer Fragment Methods'
 authors: 'Phillip Seeber, Sebastian Seidenath, Stefanie Gräfe'
-speaker: Phillip Seeber 
+speaker: Dr. Phillip Seeber 
 location: 'Friedrich Schiller University Jena'
 abstract: 'Modern ab initio methods provide unprecedented accuracy for a variety of chemical problems. However, their steep scaling with system size often limits their applicability to relatively small molecules. Even though the rise of linear scaling ab initio methods allows their application to systems with thousands of atoms, important aspects remain unsolved. First, a suitable computational method for both the desired physical property and the type of chemical system needs to be chosen. Not all of them arelinearly scalable. Second, the crossover, where linear scaling methods become more efficient than their conventional counterparts, can arise at already too high computational costs to study dynamic phenomena.
 In this contribution, we present our program Spicy, a computational framework for multilayer fragment methods. Combining the concepts of multilayer methods, where each layer is treated at a different, suitable level of theory, and fragment methods, breaking down large systems into smaller parts and combining their results, Spicy implements the multilayer fragment combination range (ML-FCR) formalism. Without altering the underlying computational methods, a flexible partitioning of the system and assignment of suitable methods to each fragment is possible, enabling a tailored and efficient treatment of systems with chemically diverse components.
