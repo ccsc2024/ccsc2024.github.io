@@ -4,7 +4,7 @@ link: talks/anker
 categories: [comms]
 talknumber: 'D4.07'
 talktime: '24.05.2024, 15:00 – 15:30'
-speaker: Andy S. Anker
+speaker: Dr. Andy S. Anker
 img: 
 location: [
     "Department of Energy, Danish Technical University, Denmark",
