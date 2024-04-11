@@ -4,7 +4,7 @@ link: talks/bannwarth
 categories: [comms]
 talknumber: 'D4.05'
 talktime: '24.05.2024, 12:00 – 12:30'
-speaker: Christoph Bannwarth
+speaker: Prof. Christoph Bannwarth
 location: 'Aachen University'
 title: 'MolBar: A Molecular Identifier for Inorganic and Organic
 Molecules with Full Support of Stereoisomerism'
