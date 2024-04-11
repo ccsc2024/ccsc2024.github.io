@@ -7,7 +7,7 @@ talktime: '22.05.2024, 17:30 – 18:00'
 title: 'Hybrid computational workflows for reaction
 screening & discovery'
 authors: 'Thijs Stuyver, Javier Emilio Alfonso-Ramos'
-speaker: Thijs Stuyver 
+speaker: Prof. Thijs Stuyver 
 location: 'Ecole Nationale Supérieure de Chimie de Paris, Université PSL'
 abstract: 'Recent advances in machine learning (ML) and computational chemistry have opened
 the door to the development of hybrid computational workflows for reaction screening
