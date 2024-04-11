@@ -7,7 +7,7 @@ talktime: '23.05.2024, 11:30 – 12:00'
 title: 'Navigating homogeneous catalyst landscapes'
 authors: 'Rubén Laplaza, Thanapat Worakul, Shubhajit Das, Simone Gallarati,
 Matthew D. Wodrich, Clémence Corminboeuf'
-speaker: Rubén Laplaza 
+speaker: Dr. Rubén Laplaza 
 location: 'École Polytechnique Fédérale de Lausanne (EPFL)'
 abstract: 'Homogeneous transition metal catalysts are highly active and selective. However,
 the design of new catalysts for specific asymmetric transformations is challenging
