@@ -4,7 +4,7 @@ link: talks/friederich
 categories: [comms]
 talknumber: D1.03
 talktime: '21.05.2024, 11:45 – 12:15'
-speaker: Pascal Friederich
+speaker: Prof. Pascal Friederich
 location: Karlsruher Institut für Technologie (KIT), Germany
 title: 'MEGAN: Multi-explanation Graph Attention Network'
 authors: 'Pascal Friederich,[a,b] Jonas Teufel,[a] Luca Torresi,[a] Patrick Reiser,[a,b]'
