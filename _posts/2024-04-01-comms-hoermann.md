@@ -4,7 +4,7 @@ categories: [comms]
 link: talks/hoermann
 talknumber: D2.08
 talktime: '22.05.2024, 15:30 – 16:00'
-speaker: Lukas Hörmann
+speaker: Dr. Lukas Hörmann
 title: 'Atomic-scale insights into frictional energy dissipation mechanisms'
 authors: 'Lukas Hörmann, Shinjae Nam, Alfred J. Weymouth, Franz J. Gießibl, and Reinhard J. Maurer'
 location: 'University of Warwick, Coventry (UK)'
