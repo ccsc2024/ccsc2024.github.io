@@ -1,8 +1,8 @@
 ---
 layout: default
-categories: [decision]
+categories: [speedtalk]
 authors: 'Joshua Schrier'
 speaker: Joshua Schrier
 location: 'Fordham University, New York'
-link: poster/schrier
+link: talks/schrier
 ---
