@@ -6,7 +6,7 @@ title: 'Quantum-mechanical exploration of conformers and
 solvent effects in complex molecular systems'
 authors: 'Leonardo Medrano Sandonas, Li Chen, Alessio Fallani, Mirela Puleva, Mathias
 Hilfiker, Dries Van Rompaey, Alexandre Tkatchenko, Gianaurelio Cuniberti'
-speaker: 
+speaker: Leonardo Medrano Sandonas
 location: 'Institute for Materials Science and Max Bergmann Center of Biomaterials'
 abstract: 'In pharmaceutical research and development, computational chemistry can play an
 integral role in expediting candidate drugs into the clinic. Particularly, quantum-
