@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [decision]
-posternumber: '?'
+posternumber: P35
 title: 'Efficient interatomic descriptors for accurate
 machine learning force fields of extended molecules'
 authors: 'Adil Kabylda, Valentin Vassilev-Galindo, Stefan Chmiela, Igor Poltavsky, Alexandre Tkatchenko'
