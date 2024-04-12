@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [decision]
-posternumber: '?'
+posternumber: P34
 speaker: Rostislav Fedorov
 img: fedorov.png
 location: 'Heidelberg Institute for Theoretical Studies (DE)'
