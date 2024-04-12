@@ -3,7 +3,7 @@ layout: posterpage
 categories: [poster]
 posternumber: 'P10'
 title: 'Quantum-mechanical exploration of conformers and solvent effects in complex molecular systems'
-authors: 'M. Jones'
+authors: 'M. N. Jones, B. Horvath, P. Ando'
 speaker: Mark Nicholas Jones
 location: 'Molecular Quantum Solutions ApS'
 abstract: 'Automated lab experiments with closed loop optimization via Bayesian optimization (Gaussian process regression) or other ML/AI methods have seen more research traction during the last years for
