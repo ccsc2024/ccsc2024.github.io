@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [decision]
-posternumber: '?'
+posternumber: P42
 title: 'The Bright Side of Machine Learning: from Ground- to Excited-State Applications'
 authors: 'Štěpán Sršeň, Johannes Dietschreit'
 speaker: Štěpán Sršeň
