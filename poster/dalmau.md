@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [decision]
-posternumber: '?'
+posternumber: P31
 speaker: David Dalmau
 location: 'Universidad de Zaragoza (ES)'
 title: 'ROBERT: Bridging the Gap between Machine Learning and Chemistry'
