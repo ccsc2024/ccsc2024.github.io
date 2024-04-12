@@ -2,12 +2,10 @@
 layout: posterpage
 categories: [poster]
 posternumber: 'P10'
-title: 'Quantum-mechanical exploration of conformers and
-solvent effects in complex molecular systems'
-authors: 'Leonardo Medrano Sandonas, Li Chen, Alessio Fallani, Mirela Puleva, Mathias
-Hilfiker, Dries Van Rompaey, Alexandre Tkatchenko, Gianaurelio Cuniberti'
-speaker: 
-location: 'Institute for Materials Science and Max Bergmann Center of Biomaterials'
+title: 'Quantum-mechanical exploration of conformers and solvent effects in complex molecular systems'
+authors: 'M. Jones'
+speaker: Mark Nicholas Jones
+location: 'Molecular Quantum Solutions ApS'
 abstract: 'Automated lab experiments with closed loop optimization via Bayesian optimization (Gaussian process regression) or other ML/AI methods have seen more research traction during the last years for
 different application domains (e.g. formulation development, drug discovery, solid materials screening) [1,2,3].
 Important steps in this closed-loop optimization scheme for the design and execution of experiments are: 1. In-silico feature set generation of solutes and solvents with the COSMO solvation model [4] 
