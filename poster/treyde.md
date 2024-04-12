@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [poster]
-posternumber: 'P27'
+posternumber: P43
 title: 'Computational Approaches to Antibiotics Discovery'
 authors: 'Wojtek Treyde, Alistair Farley, Christopher J. Schofield, Fernanda Duarte'
 location: 'University of Oxford'
