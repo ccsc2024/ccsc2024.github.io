@@ -5,7 +5,7 @@ posternumber: '?'
 title: 'Molecular Relaxation by Reverse Diffusion with Time
 Step Prediction'
 authors: 'Khaled Kahouli, Stefaan Simon Pierre Hessmann, Klaus-Robert Müller, Shinichi Nakajima, Stefan Gugler, Niklas Wolf Andreas Gebauer'
-speaker: 
+speaker: Khaled Kahouli
 location: ['Technische Universität Berlin','Berlin Institute for the Foundations of Learning and Data']
 abstract: 'Molecular relaxation, finding the equilibrium state of a non-equilibrium structure, is an
 essential component of computational chemistry to understand reactivity. Classical
