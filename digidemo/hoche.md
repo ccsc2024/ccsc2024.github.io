@@ -4,7 +4,9 @@ categories: [digidemo]
 posternumber: 'DD05'
 speaker: 'Josche Hoche and Marcel Müller'
 location: ['Merck KGaA, Darmstadt, Germany', 'Mulliken Center for Theoretical Chemistry, University of Bonn, Germany']
-title: 'KIMMDY &mdash; Kinetic Monte Carlo Molecular Dynamics'
+title: 'Catalyzing Discovery: Bayesian Back End (BayBE)
+as a general-purpose toolbox for Bayesian Design of
+Experiments in real-world campaigns'
 authors: 'J. Hoche, M. Müller, M. Fitzner, A. Hopp, A. Lee, A. Šošić and J. G. Brandenburg'
 abstract: [
 'The Bayesian Back End (BayBE) is a versatile, open-source software package [1] designed
