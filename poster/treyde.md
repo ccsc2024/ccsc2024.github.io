@@ -5,6 +5,7 @@ posternumber: 'P27'
 title: 'Computational Approaches to Antibiotics Discovery'
 authors: 'Wojtek Treyde, Alistair Farley, Christopher J. Schofield, Fernanda Duarte'
 location: 'University of Oxford'
+speaker: Wojtek Treyde
 abstract: 'Antibiotic resistance poses a significant and growing threat to public health, with an
 estimated annual toll of 10 million deaths by 2050 without intervention [1]. At the same
 time, traditional antibiotics discovery pipelines have become less productive [2,3].
