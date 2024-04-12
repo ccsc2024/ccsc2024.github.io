@@ -4,7 +4,7 @@ categories: [decision]
 posternumber: '?'
 title: 'Adaptive Pople basis sets'
 authors: 'Danish Khan, Maximillian L. Ach,  O. Anatole von Lilienfeld'
-speaker: 
+speaker: Danish Khan
 location: 'University of Toronto'
 abstract: 'Gaussian Type Orbitals (GTOs) from the Pople basis set family have been among the most widely employed basis functions in quantum chemistry calculations for five decades.
 We introduce a machine learning model that improves the STO-3G, 3-21G, 6-31G and 6-31G* basis sets by adapting the basis functions to the local atomic environments prior to the start of Self Consistent Field (SCF) calculations.
