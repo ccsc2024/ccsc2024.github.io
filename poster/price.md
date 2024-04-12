@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [decision]
-posternumber: '?'
+posternumber: P40
 title: 'Adaptive Hybrid Density Functionas'
 authors: 'Danish Khan, Alastair J. A. Price, Maximilian L. Ach, O. Anatole von Lilienfeld'
 speaker: 
