@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [decision]
-posternumber: '?'
+posternumber: P39
 title: 'Merits of unconstrained atomistic machine learning'
 authors: 'Sergey Pozdnyakov, Michele Ceriotti'
 speaker: Sergey Pozdnyakov
