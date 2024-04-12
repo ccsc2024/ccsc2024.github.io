@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [decision]
-posternumber: '?'
+posternumber: P36
 title: 'Molecular Relaxation by Reverse Diffusion with Time
 Step Prediction'
 authors: 'Khaled Kahouli, Stefaan Simon Pierre Hessmann, Klaus-Robert Müller, Shinichi Nakajima, Stefan Gugler, Niklas Wolf Andreas Gebauer'
