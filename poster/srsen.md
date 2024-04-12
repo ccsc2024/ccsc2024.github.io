@@ -4,7 +4,7 @@ categories: [decision]
 posternumber: '?'
 title: 'The Bright Side of Machine Learning: from Ground- to Excited-State Applications'
 authors: 'Štěpán Sršeň, Johannes Dietschreit'
-speaker: 
+speaker: Štěpán Sršeň
 location: 'University of Vienna'
 abstract: 'The performance of machine learning algorithms for electronically excited states significantly lags behind ground-state applications [1]. 
 While the complexity of reference electronic-structure calculations poses a problem of its own, there are additional obstacles when learning both 
