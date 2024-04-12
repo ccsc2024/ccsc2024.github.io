@@ -1,6 +1,6 @@
 ---
 layout: default
-categories: [decision]
+categories: [speedtalk]
 authors: 'Jan Weinreich, Alexandre A. Schoepfer, Rubén Laplaza, Jérôme Waser,
 Clémence Corminboeuf'
 speaker: Jan Weinreich 
