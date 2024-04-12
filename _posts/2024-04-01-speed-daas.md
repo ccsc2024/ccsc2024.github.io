@@ -1,7 +1,7 @@
 ---
 layout: default
-categories: [decision]
+categories: [speedtalk]
 speaker: Kimberly J. Daas
 location: 'Vrije Universiteit Amsterdam (NL)'
-link: poster/daas
+link: talks/daas
 ---
