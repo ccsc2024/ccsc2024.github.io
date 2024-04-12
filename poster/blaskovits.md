@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [decision]
-posternumber: '?'
+posternumber: P30
 speaker: J. Terence Blaskovits
 location: [
     'Max-Planck Institute for Polymer Research, Mainz (DE)',
