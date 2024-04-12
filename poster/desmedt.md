@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [decision]
-posternumber: '?'
+posternumber: P32
 speaker: Eline Desmedt
 location: 'Vrije Universiteit Brussel (BE)'
 title: 'Understanding NLO Switches with Inverse Molecular Design and Explainable Machine-Learning'
