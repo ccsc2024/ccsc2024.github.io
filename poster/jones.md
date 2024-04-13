@@ -18,7 +18,7 @@ references: [
 ['J. Noh, D.H. Doan, H. Job et al.', 'Nat Commun', 2024, 15, 2757],
 ['S. Back, A. Aspuru-Guzik, M. Ceriotti et al.', 'Digital Discovery', 2024, '3', '23-33'],
 ['M. Vogler, J. Busk, H. Hajiyani et al.', 'Matter', 2023, 6, 2647-2665],
-[M. N. Jones, May 23 2024, 'https://blog.mqs.dk/posts/10_cosmo/10_cosmo'],
-[M. N. Jones, Chapter 4, PhD thesis, 2019, 'https://orbit.dtu.dk/en/publications/design-and-optimisation-of-oleochemical-processes']
+[M. N. Jones, '', 2024, 'https://blog.mqs.dk/posts/10_cosmo/10_cosmo'],
+[M. N. Jones, PhD thesis (chapter 4), 2019, 'https://orbit.dtu.dk/en/publications/design-and-optimisation-of-oleochemical-processes']
 ]
 ---
