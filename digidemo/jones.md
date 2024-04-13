@@ -15,5 +15,12 @@ abstract: 'The MQS platform allows to apply end to end pipelines to high-through
     <li>A laboratory connection interface to apply closed-loop optimization of the design of experiments with automated laboratories.</li>
 </ul>
 The platform will be showcased by utilizing the UI, the integrated JupyterLab and Kubeflow environment in the MQS Dashboard.'
-references:
+references: [
+[MQS Blog article, 'https://blog.mqs.dk/posts/4_mqs_dashboard_release/new_dashboard_release/'],
+[MQS Blog article, 'https://blog.mqs.dk/posts/5_mqs_search_api_part2/getting_started_search_api_part2/'],
+[MQS Blog article, 'https://blog.mqs.dk/posts/7_mqsdk/sdk/ https://blog.mqs.dk/posts/3_getting_started_search_api/getting_started_search_api_part1/'],
+[MQS Blog article, 'https://blog.mqs.dk/posts/8_quantum_computing_course_and_hpc_environment/quantum_computing_course_and_hpc_environment/'],
+[MQS Blog article, 'https://blog.mqs.dk/posts/9_quantum_information_data_machine_learning/9_quantum_information_machine_learning/']
+]
 ---
+
