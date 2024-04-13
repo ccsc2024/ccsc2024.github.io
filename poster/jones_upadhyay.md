@@ -21,7 +21,7 @@ references: [
 ['Forrest, P. Bazylewski, R. Bauer, et al.', Front. Mar. Sci., 2014],
 ['N. O. Eddy', Scientific African, 2020, 10],
 ['Y. Igarashi, S. Re, R. Kojima, et al.', J. Toxicol. Sci., 2023, 48, 5, 243-249],
-['M. N. Jones and A. Mavi', MQS Blog Article, 2023; 'https://blog.mqs.dk/posts/6_mqs_search_api_part3/getting_started_tutorial_part3/'],
+['M. N. Jones and A. Mavi', MQS Blog Article, 2023, 'https://blog.mqs.dk/posts/6_mqs_search_api_part3/getting_started_tutorial_part3/'],
 ['Milind Upadhyay and Mark Nicholas Jones', MQS Blog Article, 2024, 'https://blog.mqs.dk/posts/9_quantum_information_data_machine_learning/9_quantum_information_machine_learning/']
 ]
 ---
