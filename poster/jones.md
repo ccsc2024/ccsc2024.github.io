@@ -2,8 +2,8 @@
 layout: posterpage
 categories: [poster]
 posternumber: 'P10'
-title: 'Quantum-mechanical exploration of conformers and solvent effects in complex molecular systems'
-authors: 'M. N. Jones, B. Horvath, P. Ando'
+title: 'Solvation Modelling and Bayesian Design of Experiments for Pharmaceutical Formulation Development'
+authors: 'Mark Nicholas Jones'
 speaker: Mark Nicholas Jones
 location: 'Molecular Quantum Solutions ApS'
 abstract: 'Automated lab experiments with closed loop optimization via Bayesian optimization (Gaussian process regression) or other ML/AI methods have seen more research traction during the last years for
@@ -15,10 +15,10 @@ confidence and end of experiments loop or updated/new design of experiments and 
 with a thorough analysis how a Gaussian process should be implemented to achieve an efficient high-througput screening study with an automated laboratory setup. Further, important data schemas will be presented 
 which have been identified to make the data transfer between the laboratory devices and the computational analysis as coherent as possible.'
 references: [
-['J. Noh, D.H. Doan, H. Job et al.', 'Nat Commun 15', 2757, (2024)],
-['S. Back, A. Aspuru-Guzik, M. Ceriotti et al.', 'Digital Discovery, 3', '23-33', '(2024)'],
-['M. Vogler, J. Busk, H. Hajiyani et al.', 'Matter, 6', '2647-2665', (2023)],
+['J. Noh, D.H. Doan, H. Job et al.', 'Nat Commun', 2024, 15, 2757],
+['S. Back, A. Aspuru-Guzik, M. Ceriotti et al.', 'Digital Discovery', 2024, '3', '23-33'],
+['M. Vogler, J. Busk, H. Hajiyani et al.', 'Matter', 2023, 6, 2647-2665],
 [M. N. Jones, May 23 2024, 'https://blog.mqs.dk/posts/10_cosmo/10_cosmo'],
-[M. N. Jones, Chapter 4, PhD thesis, (2019), 'https://orbit.dtu.dk/en/publications/design-and-optimisation-of-oleochemical-processes']
+[M. N. Jones, Chapter 4, PhD thesis, 2019, 'https://orbit.dtu.dk/en/publications/design-and-optimisation-of-oleochemical-processes']
 ]
 ---
