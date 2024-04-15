@@ -5,7 +5,7 @@ posternumber: P46
 speaker: Sara Tkaczyk
 location: University of Vienna
 title: 'Using Neural Network Potentials to calculate Tautomer Ratios'
-authors: 'Sara Tkaczyka, Stefan Borescha, Oscar Palominob, Andrea Rizzic, Marcus Wieder'
+authors: 'Sara Tkaczyk, Stefan Boresch, Oscar Palomino, Andrea Rizzi, Marcus Wieder'
 abstract: ['Accurately determining tautomer ratios in solution poses a considerable challenge. Classical
 molecular mechanics force fields cannot describe the nuanced topological variations inherent
 in tautomerism. In contrast, neural network potentials (NNPs), trained on quantum mechanics
