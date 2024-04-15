@@ -1,7 +1,7 @@
 ---
 layout: posterpage
 categories: [poster]
-posternumber: 'P10'
+posternumber: 'P44'
 title: 'Solvation Modelling and Bayesian Design of Experiments for Pharmaceutical Formulation Development'
 authors: 'Mark Nicholas Jones'
 speaker: Mark Nicholas Jones
