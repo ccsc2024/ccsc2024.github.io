@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posterpage
 categories: [poster]
 posternumber: P50
 speaker: Philipp Erdmann
