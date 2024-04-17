@@ -5,7 +5,7 @@ posternumber: P39
 speaker: Shubhajit Das
 location: 'Faculty of Chemistry and Food Chemistry, Technische Universität Dresden, 01062 Dresden, Germany'
 title: 'Navigating the Chemical Space of Catalysts'
-authors: 'Maximilian L. Ach, Danish Khan, Anatole von Lilienfeld'
+authors: 'Shubhajit Das, Ruben Laplaza, Clemence Corminboeuf, Thomas Heine'
 abstract: 'Developing and implementing tools for rapid prediction of catalytic properties can significantly expand 
 the search space and accelerate the discovery process. To this end, we present a computational framework aimed 
 at accelerating the exploration/optimization of catalyst landscapes by combining concepts from physical-organic 
