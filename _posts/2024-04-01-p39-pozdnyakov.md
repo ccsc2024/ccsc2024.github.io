@@ -1,6 +1,6 @@
 ---
 layout: default
-categories: [poster]
+categories: [cancelled]
 posternumber: P39
 authors: 'Sergey Pozdnyakov, Michele Ceriotti'
 speaker: Sergey Pozdnyakov
