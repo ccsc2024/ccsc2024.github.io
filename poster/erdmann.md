@@ -26,5 +26,5 @@ references: [
 ['P. Erdmann, J. Leitner, J. Schwarz, L. Greb', ChemPhysChem, 2020, 21, 987-994],
 ['P. Erdmann, L. Greb', ChemPhysChem, 2021, 22, 935-943]
 ]
-abstractfigure: [{'figure': 'erdmann.md', 'cpation'; ' '}]
+abstractfigure: [{'figure': 'erdmann.md', 'caption': ''}]
 ---
