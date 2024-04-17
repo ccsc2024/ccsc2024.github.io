@@ -4,9 +4,9 @@ categories: [poster]
 posternumber: P48
 speaker: Stefan Heinen
 location: 'Laboratory for High Performance Ceramics, Empa, Swiss Federal Laboratories for Materials Science and Technology, 8600 Dübendorf'
-title: 'Adaptive Quantum Chemistry Basis Sets'
+title: 'QMLcode 2.0, the Pythony way: Installable across platforms'
 authors: 'S. Heinen, K. Karandashev, D. Khan, J. Weinreich, G. Blugan, A. O. von Lilienfeld'
-abstract: 'To ensure reproducibility we introduce an updated, publicly available, and maintained kernel ridge 
+abstract: "To ensure reproducibility we introduce an updated, publicly available, and maintained kernel ridge 
 regression (KRR) code extending capabilities of both QMLcode1.0 and QMLightning, offering researchers a robust 
 tool for quantum machine learning applications. Transitioning from the original implementation in FORTRAN, 
 encapsulated by a Python wrapper, the project is entirely rewritten in Python. This not only facilitates a 
@@ -23,5 +23,5 @@ a new wrapper that facilitates the Compound class, hyperparameter scan, training
 remains backward compatible, offering function-based operability to accommodate scripts developed for the original 
 version. Showing numerical evidence for atomization energies using the QM7 dataset confirms QMLcode 2.0's accuracy
 is unchanged, with a slight speed reduction balanced by major new features, broadening its utility in kernel ridge
-regression.'
+regression."
 ---
