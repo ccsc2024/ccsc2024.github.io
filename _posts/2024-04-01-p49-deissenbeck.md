@@ -1,5 +1,5 @@
 ---
-layout: posterpage
+layout: default
 categories: [poster]
 posternumber: P49
 speaker: Daniel Deißenbeck
