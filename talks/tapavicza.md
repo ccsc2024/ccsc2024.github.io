@@ -16,6 +16,12 @@ However, due to the excitation energy required to drive the isomerization, this 
 chemistry and ab initio non-adiabatic molecular dynamics [4], I will report efforts to design new MNMs with improved PQY, one- and two-photon absorption 
 cross sections. To allow screening of a large number of molecular candidates, machine learning methods for the prediction of excited state properties [5, 6]
 take a crucial role in this development.'
-abstractfigure:
-references:
+abstractfigure: [{'figure': 'tapavicza.png', 'caption': 'Photoinduced isomerization of a unidirectional MNM, simulated by ab initio non-adiabatic molecular dynamics.'}]
+references: [
+['N. Koumura, E. M. Geertsema, A. Meetsma, and B. L. Feringa', J. Am. Chem. Soc., 2000, 122(48), 12005–12006],
+['V. García-López, F. Chen, L. G. Nilewski, G. Duret, A. Aliyan, A. B. Kolomeisky, J. T. Robinson, G. Wang, R. Pal, and J. M. Tour', Nature, 2017, 548(7669), 567],
+['T. Thompson and E. Tapavicza', J. Phys. Chem. Lett., 2018, 9(16), 4758–4764],
+['E. Tapavicza, G. D. Bellchambers, J. C. Vincent, and F. Furche', Phys. Chem. Chem. Phys., 2013, 15, 18336–18348],
+['R. Ramakrishnan, M. Hartmann, E. Tapavicza, and O. A. von Lilienfeld', J. Chem. Phys., 2015, 143(8), 084111] 
+]
 ---
