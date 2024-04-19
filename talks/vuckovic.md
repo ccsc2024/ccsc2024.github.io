@@ -13,6 +13,6 @@ chemistry lags behind. I will address several aspects of transferability of dens
 how to define it [1] and how to solve the transferability issues in machine-learned functionals [2].'
 references: [
 ['H. Zhao, T. Gould, S. Vuckovic', Phys. Chem. Chem. Phys., 2024, (accepted), 10.1039/D4CP00878B],
-['S. Vuckovic, T. Gould, B. Chang, S. Dale, ChemRXiv, 2024, 10.26434/chemrxiv-2023-5075x-v2]
+['S. Vuckovic, T. Gould, B. Chang, S. Dale', ChemRXiv, 2024, 10.26434/chemrxiv-2023-5075x-v2]
 ]
 ---
