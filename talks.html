@@ -23,8 +23,8 @@ layout: page
       </div>
     </div>
     <br>
-    <div class="row">
-          {% for kt in site.categories.keynote %}
+    {% for kt in site.categories.keynote %}
+        <div class="row">
           <div class="col-lg-4 col-lg-offset-2">
             <a href="https://ccsc2024.github.io/talks/{{ kt.talklink }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
             <b>{{ kt.title }}</b>, {{ kt.affiliation }} </a>
@@ -33,9 +33,9 @@ layout: page
             <a href="https://ccsc2024.github.io/talks/{{ kt.talklink }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
             <i>{{ kt.talktitle }}</i> </a>
           </div>
-          <br><br>
-          {% endfor %}
-    </div>
+      </div>
+      <br><br>
+    {% endfor %}
   </div>
 </section>
 <br>
