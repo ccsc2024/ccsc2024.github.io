@@ -13,4 +13,5 @@ researchgate:
 description: Assitant Professor at University of Leipzig.
 affiliation: University of Leipzig (DE)
 talklink: westermayr
+talktitle: 'Chemical discovery assisted by machine learning'
 ---
