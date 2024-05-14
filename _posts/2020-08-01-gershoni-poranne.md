@@ -14,4 +14,5 @@ description: Assistant Professor, Technion Israel Institute of Technology
 long_description: 
 affiliation: Technion Israel Institute of Technology (IL)
 talklink: poranne
+talktitle: 'Data is a Girl’s Best Friend: From High-Throughput Computations to Generative Deep Learning'
 ---
