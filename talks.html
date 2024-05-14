@@ -26,7 +26,8 @@ layout: page
     <div class="row">
           {% for kt in site.categories.keynote %}
           <div class="col-lg-4 col-lg-offset-2">
-            <b>{{ kt.title }}</b>, {{ kt.affiliation }}
+            <a href="https://ccsc2024.github.io/talks/{{ kt.talklink }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
+            <b>{{ kt.title }}</b>, {{ kt.affiliation }} </a>
           </div>
           <div class="col-lg-4">
             <a href="https://ccsc2024.github.io/talks/{{ kt.talklink }}" target="_blank" style="font-size:20px;color:#FFFFFF;">
@@ -47,15 +48,16 @@ layout: page
       </div>
       <br>
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-2">
-          <ul>
           {% for it in site.categories.invited %}
-            <li><a href="https://ccsc2024.github.io/talks/{{ it.talklink }}" target="_blank" style="font-size:20px;color:#5d308a;">
+          <div class="col-lg-4 col-lg-offset-2">
+            <a href="https://ccsc2024.github.io/talks/{{ it.talklink }}" target="_blank" style="font-size:20px;color:#5d308a;">
               <b>{{ it.title }}</b>, {{ it.affiliation }}</a>
-            </li>
+          </div>
+          <div class="col-lg-4">
+            <a href="https://ccsc2024.github.io/talks/{{ it.talklink }}" target="_blank" style="font-size:20px;color:#5d308a;">
+            <i>{{ it.talktitle }}</i> </a>
+          </div>
           {% endfor %}
-          </ul>
-        </div>
       </div>
     </div>  
   </div>
@@ -71,15 +73,16 @@ layout: page
       </div>
       <br>
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-2">
-          <ul>
           {% for it in site.categories.comms %}
-            <li><a href="https://ccsc2024.github.io/{{ it.link }}" target="_blank" style="font-size:20px;color:#ffffff;">
+          <div class="col-lg-4 col-lg-offset-2">
+            <a href="https://ccsc2024.github.io/{{ it.link }}" target="_blank" style="font-size:20px;color:#ffffff;">
               <b>{{ it.speaker }}</b>, {{ it.location }}</a>
-            </li>
+          </div>
+          <div class="col-lg-4">
+            <a href="https://ccsc2024.github.io/{{ it.link }}" target="_blank" style="font-size:20px;color:#ffffff;">
+            <i>{{ it.talktitle }}</i> </a>
+          </div>
           {% endfor %}
-          </ul>
-        </div>
       </div>
     </div>  
   </div>
@@ -95,15 +98,16 @@ layout: page
       </div>
       <br>
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-2">
-          <ul>
           {% for ct in site.categories.speedtalk %}
-            <li><a href="https://ccsc2024.github.io/{{ ct.link }}" target="_blank" style="font-size:20px;color:##5d308a;">
+          <div class="col-lg-4 col-lg-offset-2">
+            <a href="https://ccsc2024.github.io/{{ ct.link }}" target="_blank" style="font-size:20px;color:#5d308a;">
               <b>{{ ct.speaker }}</b>, {{ ct.location }}</a>
-            </li>
+          </div>
+          <div class="col-lg-4">
+            <a href="https://ccsc2024.github.io/{{ ct.link }}" target="_blank" style="font-size:20px;color:#5d308a;">
+            <i>{{ ct.talktitle }}</i> </a>
+          </div>
           {% endfor %}
-          </ul>
-        </div>
       </div>
     </div>  
   </div>
