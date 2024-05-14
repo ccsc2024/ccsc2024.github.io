@@ -48,8 +48,8 @@ layout: page
         <br>
       </div>
       <br>
-      <div class="row">
-          {% for it in site.categories.invited %}
+      {% for it in site.categories.invited %}
+        <div class="row">
           <div class="col-lg-4 col-lg-offset-2">
             <a href="https://ccsc2024.github.io/talks/{{ it.talklink }}" target="_blank" style="font-size:20px;color:#5d308a;">
               <b>{{ it.title }}</b>, {{ it.affiliation }}</a>
@@ -59,8 +59,9 @@ layout: page
             <i>{{ it.talktitle }}</i> </a>
           </div>
           <br><br>
-          {% endfor %}
       </div>
+      <br><br>
+    {% endfor %}
     </div>  
   </div>
 </section>
@@ -74,8 +75,8 @@ layout: page
         <br>
       </div>
       <br>
-      <div class="row">
-          {% for it in site.categories.comms %}
+      {% for it in site.categories.comms %}
+        <div class="row">
           <div class="col-lg-4 col-lg-offset-2">
             <a href="https://ccsc2024.github.io/{{ it.link }}" target="_blank" style="font-size:20px;color:#ffffff;">
               <b>{{ it.speaker }}</b>, {{ it.location }}</a>
@@ -88,9 +89,9 @@ layout: page
               <i>{{ tba }}</i> </a>
             {% endif %}
           </div>
-          <br><br>
-          {% endfor %}
-      </div>
+        </div>
+        <br><br>
+      {% endfor %}
     </div>  
   </div>
 </section>
@@ -104,8 +105,8 @@ layout: page
         <br>
       </div>
       <br>
-      <div class="row">
-          {% for ct in site.categories.speedtalk %}
+      {% for ct in site.categories.speedtalk %}
+        <div class="row">
           <div class="col-lg-4 col-lg-offset-2">
             <a href="https://ccsc2024.github.io/{{ ct.link }}" target="_blank" style="font-size:20px;color:#5d308a;">
               <b>{{ ct.speaker }}</b>, {{ ct.location }}</a>
@@ -118,9 +119,9 @@ layout: page
               <i>{{ tba }}</i> </a>
             {% endif %}
           </div>
-          <br><br>
-          {% endfor %}
-      </div>
+        </div>
+        <br><br>
+      {% endfor %}
     </div>  
   </div>
 </section>
