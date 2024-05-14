@@ -6,4 +6,5 @@ Clémence Corminboeuf'
 speaker: Jan Weinreich 
 location: 'École Polytechnique Fédérale de Lausanne (EPFL), National Center for Competence in Research-Catalysis (NCCR-Catalysis)'
 link: talks/weinreich
+title: 'Cost-Informed Bayesian Reaction Optimization'
 ---
