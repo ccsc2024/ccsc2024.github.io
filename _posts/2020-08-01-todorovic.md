@@ -14,4 +14,5 @@ description: Assistant Professor, Materials Engineering, Turku University
 long_description: 
 affiliation: Turku University (FI)
 talklink: todorovic
+talktitle: 'Active learning for data-efficient optimisation of functional materials'
 ---
