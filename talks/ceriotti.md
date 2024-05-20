@@ -29,6 +29,6 @@ references: [
 ['M. Kellner, M. Ceriotti', arXiv, 2024, 2402.16621],
 ['F. Bigi, S. Chong, F. Grasselli, M. Ceriotti', arXiv, 2024, 2403.02251]
 ]
-abstractfigure: ['figure': 'ceriotti.png', 'caption': 'Schematic representation of error estimation with uncertainty propagation using a
-shallow-ensemble model']
+abstractfigure: [{'figure': 'ceriotti.png', 'caption': 'Schematic representation of error estimation with uncertainty propagation using a
+shallow-ensemble model'}]
 ---
